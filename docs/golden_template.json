@@ -1,0 +1,22 @@
+{
+  "seller": {
+    "name": "назва як надруковано",
+    "vat_payer_number": null,
+    "tax_id": null,
+    "address": null
+  },
+  "receipt_number": null,
+  "fiscal_number": null,
+  "issued_at": "2026-09-13T13:29:33",
+  "currency": "UAH",
+  "items": [
+    {"name": "назва як надруковано", "qty": "1", "unit_price": "0.00", "amount": "0.00", "vat_group": null}
+  ],
+  "vat": [
+    {"group": "А", "rate": "20", "amount": "0.00"}
+  ],
+  "discount_total": null,
+  "total": "0.00",
+  "payment_method": "card",
+  "category": "groceries"
+}

@@ -1,0 +1,24 @@
+{
+  "seller": {
+    "name": "ТОВ \"ТЕСТ РІТЕЙЛ\"",
+    "vat_payer_number": "123456789012",
+    "tax_id": "12345678",
+    "address": "м. Київ, вул. Прикладна, 1"
+  },
+  "receipt_number": "m7MrNYg7jGo",
+  "fiscal_number": "4000123456",
+  "issued_at": "2026-09-13T13:29:33",
+  "currency": "UAH",
+  "items": [
+    {"name": "АЦЦ ЛОНГ 600 ТАБ", "qty": "0.334", "unit_price": "414.00", "amount": "138.28", "vat_group": "Б"},
+    {"name": "ХЛІБ БАТОН НАР 0.5КГ", "qty": "1", "unit_price": "31.90", "amount": "31.90", "vat_group": "А"}
+  ],
+  "vat": [
+    {"group": "Б", "rate": "7", "amount": "9.05"},
+    {"group": "А", "rate": "20", "amount": "5.32"}
+  ],
+  "discount_total": null,
+  "total": "170.18",
+  "payment_method": "card",
+  "category": "pharmacy"
+}
