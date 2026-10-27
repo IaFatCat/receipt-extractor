@@ -19,6 +19,7 @@ from typing import Any
 from .schema import CLASSIFICATION_FIELDS, EXTRACTIVE_FIELDS, SCALAR_FIELDS, Receipt
 
 TOL, VAT_TOL = Decimal("0.01"), Decimal("0.02")
+ITEM_FIELDS = ("name", "qty", "unit_price", "amount", "discount", "vat_group")
 TEXT_CHECK_FIELDS = ["seller.name", "seller.tax_id", "seller.vat_payer_number", "receipt_number", "fiscal_number"]
 
 
@@ -32,9 +33,14 @@ def get(obj: Any, path: str) -> Any:
     return obj
 
 
+# Латинські двійники кириличних літер: «А95» з латинською A == «А95» з кириличною
+_HOMOGLYPHS = str.maketrans("ABCEHIKMOPTXY", "АВСЕНІКМОРТХУ")
+
+
 def norm_str(s: str) -> str:
-    s = re.sub(r"[«»\"'“”„`]", "", s.upper())
-    return re.sub(r"\s+", " ", s).strip(" .,;:")
+    """Регістр, лапки, пробіли (переноси рядків у назвах) і латинські двійники не мають значення."""
+    s = re.sub(r"[«»\"'“”„`]", "", s.upper()).translate(_HOMOGLYPHS)
+    return re.sub(r"\s+", "", s).strip(".,;:")
 
 
 def norm_compact(s: str) -> str:
@@ -46,8 +52,8 @@ def norm_value(v: Any) -> Any:
         return None
     if isinstance(v, Decimal):
         return v.normalize()
-    if isinstance(v, datetime):
-        return v.replace(tzinfo=None, microsecond=0)
+    if isinstance(v, datetime):  # до хвилини: секунди на фото бувають обрізані
+        return v.replace(tzinfo=None, second=0, microsecond=0)
     if hasattr(v, "value"):  # StrEnum
         return v.value
     if isinstance(v, str):
@@ -59,10 +65,27 @@ def same(a: Any, b: Any) -> bool:
     return norm_value(a) == norm_value(b)
 
 
+def same_field(field: str, g: Any, p: Any) -> bool:
+    if field == "receipt_number" and isinstance(g, str) and isinstance(p, str):
+        # «ЧЕК № 000205557 00451»: другий номер — службовий, обидва варіанти вважаємо правильними
+        return norm_str(g) == norm_str(p) or norm_str(g) in [norm_str(t) for t in p.split()]
+    return same(g, p)
+
+
+def same_item_field(field: str, g: Any, p: Any) -> bool:
+    gv, pv = getattr(g, field), getattr(p, field)
+    if field == "discount":
+        return same(gv or Decimal(0), pv or Decimal(0))
+    if field == "unit_price" and (gv is None or pv is None) and g.qty == 1:
+        # ціну окремо не надруковано: при qty=1 «null» і «= сума рядка» еквівалентні
+        return same(gv if gv is not None else g.amount, pv if pv is not None else p.amount)
+    return same(gv, pv)
+
+
 # --- арифметика кодом ------------------------------------------------------
 
 def arithmetic_checks(r: Receipt) -> dict[str, bool | None]:
-    items_sum = sum((i.amount for i in r.items), Decimal(0))
+    items_sum = sum((i.amount - (i.discount or 0) for i in r.items), Decimal(0))
     out: dict[str, bool | None] = {
         "sum_eq_total": abs(items_sum - (r.discount_total or 0) - r.total) <= TOL
         or abs(items_sum - r.total) <= TOL,  # мережі по-різному друкують суму позиції: до/після знижки
@@ -73,7 +96,7 @@ def arithmetic_checks(r: Receipt) -> dict[str, bool | None]:
     for v in r.vat:
         if v.rate is None or v.amount is None:
             continue  # «звільнені», акциз тощо
-        base = sum((i.amount for i in r.items if i.vat_group == v.group), Decimal(0))
+        base = sum((i.amount - (i.discount or 0) for i in r.items if i.vat_group == v.group), Decimal(0))
         if base == 0:
             continue
         expected = (base * v.rate / (100 + v.rate)).quantize(Decimal("0.01"))  # ПДВ у ціні
@@ -128,7 +151,7 @@ def align_items(gold: list, pred: list) -> list[tuple[int, int]]:
 
 def compare(gold: Receipt, pred: Receipt) -> dict[str, Any]:
     fields: dict[str, str] = {}
-    for f in SCALAR_FIELDS + ["seller.address"]:
+    for f in SCALAR_FIELDS:
         g, p = get(gold, f), get(pred, f)
         if g is None and p is None:
             fields[f] = "both_null"
@@ -137,14 +160,14 @@ def compare(gold: Receipt, pred: Receipt) -> dict[str, Any]:
         elif p is None:
             fields[f] = "missed"
         else:
-            fields[f] = "correct" if same(g, p) else "wrong"
+            fields[f] = "correct" if same_field(f, g, p) else "wrong"
 
     pairs = align_items(gold.items, pred.items)
     item_fields, item_errors = Counter(), []
     for gi, pi in pairs:
         g, p = gold.items[gi], pred.items[pi]
-        for f in ("name", "qty", "unit_price", "amount", "vat_group"):
-            ok = same(getattr(g, f), getattr(p, f))
+        for f in ITEM_FIELDS:
+            ok = same_item_field(f, g, p)
             item_fields[f] += ok
             if not ok:
                 item_errors.append((f"items[{gi}].{f}", getattr(g, f), getattr(p, f)))
@@ -240,7 +263,7 @@ def compute_run(run_dir: Path, texts: dict[str, str], golden: dict[str, Receipt]
             stability.append(len(dumps) == 1)
         for rep, p in enumerate(reps):
             if p is None:
-                for f in SCALAR_FIELDS + ["seller.address"]:
+                for f in SCALAR_FIELDS:
                     fstat[f]["failed"] += 1
                 errors.append({"doc": doc, "repeat": rep, "field": "*", "gold": "", "pred": "FAILED"})
                 continue
@@ -286,7 +309,7 @@ def compute_run(run_dir: Path, texts: dict[str, str], golden: dict[str, Receipt]
         "recall": round(rec, 4) if rec is not None else None,
         "f1": round(2 * prec * rec / (prec + rec), 4) if prec and rec else None,
         "matched_field_accuracy": {f: _frac(item_fields[f], items["matched"])
-                                   for f in ("name", "qty", "unit_price", "amount", "vat_group")},
+                                   for f in ITEM_FIELDS},
     }
     m["vat"] = {"group_recall": _frac(vat["matched"], vat["gold"]),
                 "rate_correct": _frac(vat["rate_correct"], vat["matched"]),

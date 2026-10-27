@@ -1,0 +1,33 @@
+{
+  "seller": {
+    "name": "ТОВ \"СОКАР ПЕТРОЛЕУМ\"",
+    "vat_payer_number": "383053623016",
+    "tax_id": null,
+    "address": "Черкаська обл., Золотоніський р-н, с.Софіївка, Черкаський шлях, 68"
+  },
+  "receipt_number": "3240140",
+  "fiscal_number": "3001212342",
+  "issued_at": "2026-06-21T19:06:56",
+  "currency": "UAH",
+  "items": [
+    {
+      "name": "Бензин А-95",
+      "qty": "25.79",
+      "unit_price": "76.90",
+      "amount": "1983.25",
+      "discount": null,
+      "vat_group": "А"
+    }
+  ],
+  "vat": [
+    {
+      "group": "А",
+      "rate": "20",
+      "amount": "330.54"
+    }
+  ],
+  "discount_total": null,
+  "total": "1983.25",
+  "payment_method": "card",
+  "category": "fuel"
+}

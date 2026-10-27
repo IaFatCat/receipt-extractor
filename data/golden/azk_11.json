@@ -1,0 +1,62 @@
+{
+  "seller": {
+    "name": "ПП \"УКРПАЛЕТСИСТЕМ\"",
+    "vat_payer_number": "322852206095",
+    "tax_id": "32285225",
+    "address": "Київська обл., Бориспільський р-н, с.Щасливе, вул.Харківське шосе, 13"
+  },
+  "receipt_number": "495195",
+  "fiscal_number": "3001071004",
+  "issued_at": "2026-06-25T18:19:00",
+  "currency": "UAH",
+  "items": [
+    {
+      "name": "Сигарети JTI Camel Blue",
+      "qty": "2",
+      "unit_price": "175.00",
+      "amount": "350.00",
+      "discount": "0.00",
+      "vat_group": "Б"
+    },
+    {
+      "name": "TEREASIENNATBEH",
+      "qty": "1",
+      "unit_price": "175.00",
+      "amount": "175.00",
+      "discount": "0.00",
+      "vat_group": "Б"
+    },
+    {
+      "name": "TEREAPROVENCEPEARLTBEH",
+      "qty": "1",
+      "unit_price": "175.00",
+      "amount": "175.00",
+      "discount": "0.00",
+      "vat_group": "Б"
+    },
+    {
+      "name": "ГЖOrbitБілосніжКлас14г",
+      "qty": "1",
+      "unit_price": "31.00",
+      "amount": "31.00",
+      "discount": "0.00",
+      "vat_group": "А"
+    }
+  ],
+  "vat": [
+    {
+      "group": "А",
+      "rate": "20",
+      "amount": "5.17"
+    },
+    {
+      "group": "Б",
+      "rate": "0",
+      "amount": "0.00"
+    }
+  ],
+  "discount_total": null,
+  "total": "731.00",
+  "payment_method": "card",
+  "category": "other"
+}

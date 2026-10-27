@@ -77,8 +77,10 @@ class Seller(_Strict):
 class ReceiptItem(_Strict):
     name: str = Field(description="Назва дослівно, зі скороченнями й помилками друку, без розшифровки")
     qty: Decimal = Field(gt=0, description="Кількість або вага; може бути дробовою (0.334, 0.294)")
-    unit_price: Decimal | None = Field(None, description="Ціна за одиницю")
-    amount: Decimal = Field(description="Сума за рядком, як надруковано")
+    unit_price: Decimal | None = Field(None, description="Ціна за одиницю, якщо надрукована окремо")
+    amount: Decimal = Field(description="Сума за рядком, як надруковано (до знижки на рядок)")
+    discount: Decimal | None = Field(None, ge=0, description="Знижка на цей рядок (рядок «Знижка…» під позицією) "
+                                                            "як додатне число; null, якщо рядка знижки немає")
     vat_group: str | None = Field(None, max_length=2, description="Літера групи ПДВ біля позиції")
 
 
@@ -106,8 +108,9 @@ SCALAR_FIELDS = [
 ]
 # Поля, значення яких має бути в тексті дослівно -> на них рахуємо «вигадані значення».
 # category / currency / payment_method свідомо виключені: їх модель виводить, а не копіює.
+# seller.address у метриках не порівнюється: багаторядкова, межа між назвою магазину й адресою неоднозначна.
 EXTRACTIVE_FIELDS = [
-    "seller.name", "seller.tax_id", "seller.vat_payer_number", "seller.address",
+    "seller.name", "seller.tax_id", "seller.vat_payer_number",
     "receipt_number", "fiscal_number", "issued_at", "discount_total", "total",
 ]
 CLASSIFICATION_FIELDS = ["category"]

@@ -1,0 +1,107 @@
+{
+  "seller": {
+    "name": "GoH Craft Pub",
+    "vat_payer_number": null,
+    "tax_id": null,
+    "address": null
+  },
+  "receipt_number": null,
+  "fiscal_number": null,
+  "issued_at": "2026-04-24T19:43:00",
+  "currency": "UAH",
+  "items": [
+    {
+      "name": "Пиво Rebrew світле нефільтроване непастеризоване < POPELKA LAGER (ПОПЕЛКА ЛАГЕР)>, 5%, ПЕТ-кег (келих 0.5)",
+      "qty": "2",
+      "unit_price": "148.00",
+      "amount": "296.00",
+      "discount": null,
+      "vat_group": null
+    },
+    {
+      "name": "Пиво світле \"Бургомістр Rein Пілснер\", л (келих 0.5)",
+      "qty": "1",
+      "unit_price": "158.00",
+      "amount": "158.00",
+      "discount": null,
+      "vat_group": null
+    },
+    {
+      "name": "Асорті горіхів.",
+      "qty": "3",
+      "unit_price": "108.00",
+      "amount": "324.00",
+      "discount": null,
+      "vat_group": null
+    },
+    {
+      "name": "Пиво MUZA IPA (5,4%) ПЕТ КЕГ 30л. Superdelic (келих 0.3)",
+      "qty": "2",
+      "unit_price": "123.00",
+      "amount": "246.00",
+      "discount": null,
+      "vat_group": null
+    },
+    {
+      "name": "Донер з куркою та грибами",
+      "qty": "1",
+      "unit_price": "318.00",
+      "amount": "318.00",
+      "discount": null,
+      "vat_group": null
+    },
+    {
+      "name": "Пиво MUZA IPA (5,4%) ПЕТ КЕГ 30л. Superdelic (келих 0.5)",
+      "qty": "2",
+      "unit_price": "188.00",
+      "amount": "376.00",
+      "discount": null,
+      "vat_group": null
+    },
+    {
+      "name": "Пиво світле Ne IPA Outback (келих 0.5)",
+      "qty": "1",
+      "unit_price": "218.00",
+      "amount": "218.00",
+      "discount": null,
+      "vat_group": null
+    },
+    {
+      "name": "Пиво Цитадель Хоппі Келлербір, кега 28л Хмільний Нуль (келих 0.5)",
+      "qty": "2",
+      "unit_price": "168.00",
+      "amount": "336.00",
+      "discount": null,
+      "vat_group": null
+    },
+    {
+      "name": "Фісташки 50г",
+      "qty": "1",
+      "unit_price": "158.00",
+      "amount": "158.00",
+      "discount": null,
+      "vat_group": null
+    },
+    {
+      "name": "Пиво світле India Pale Ale Westward (келих 0.5)",
+      "qty": "1",
+      "unit_price": "208.00",
+      "amount": "208.00",
+      "discount": null,
+      "vat_group": null
+    },
+    {
+      "name": "Пиво Rebrew світле нефільтроване непастеризоване < POPELKA LAGER (ПОПЕЛКА ЛАГЕР)>, 5%, ПЕТ-кег (келих 0.3)",
+      "qty": "3",
+      "unit_price": "103.00",
+      "amount": "309.00",
+      "discount": null,
+      "vat_group": null
+    }
+  ],
+  "vat": [],
+  "discount_total": null,
+  "total": "2947.00",
+  "payment_method": "card",
+  "category": "meals"
+}

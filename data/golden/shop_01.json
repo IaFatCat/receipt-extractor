@@ -1,0 +1,33 @@
+{
+  "seller": {
+    "name": "ТОВ \"Приватінвест\"",
+    "vat_payer_number": "215505526546",
+    "tax_id": "21550555",
+    "address": "УКРАЇНА,М.КИЇВ ГОЛОСІЇВСЬКИЙ Р-Н, вул.Васильківська,37-А"
+  },
+  "receipt_number": "q64Dxa1JXX0",
+  "fiscal_number": null,
+  "issued_at": "2026-09-08T14:59:34",
+  "currency": "UAH",
+  "items": [
+    {
+      "name": "Монітор Dell S2725DC (210-BSRL)",
+      "qty": "1.000",
+      "unit_price": "14062.00",
+      "amount": "14062.00",
+      "discount": null,
+      "vat_group": "А"
+    }
+  ],
+  "vat": [
+    {
+      "group": "А",
+      "rate": "20",
+      "amount": "2343.67"
+    }
+  ],
+  "discount_total": null,
+  "total": "14062.00",
+  "payment_method": "card",
+  "category": "office"
+}

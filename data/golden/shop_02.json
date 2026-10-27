@@ -1,0 +1,110 @@
+{
+  "seller": {
+    "name": "ТОВ \"НОВА ЛІНІЯ 1\"",
+    "vat_payer_number": "307288826516",
+    "tax_id": "30728887",
+    "address": "Україна, Київська обл, м.Бориспіль, вул.Горбатюка,2"
+  },
+  "receipt_number": "14556",
+  "fiscal_number": "3000786185",
+  "issued_at": "2026-05-24T20:48:08",
+  "currency": "UAH",
+  "items": [
+    {
+      "name": "Карниз для душ. шторки B",
+      "qty": "1",
+      "unit_price": "519.00",
+      "amount": "519.00",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "Полка для ванної кімнати",
+      "qty": "1",
+      "unit_price": "456.00",
+      "amount": "456.00",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "Набір (Паста Gebatut2 80",
+      "qty": "1",
+      "unit_price": "281.00",
+      "amount": "281.00",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "Кільця для шторки Bacche",
+      "qty": "1",
+      "unit_price": "97.00",
+      "amount": "97.00",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "Прокладка силіконова 1/2",
+      "qty": "1",
+      "unit_price": "20.10",
+      "amount": "20.10",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "Гачок клейкий HSS-502S P",
+      "qty": "2",
+      "unit_price": "267.00",
+      "amount": "534.00",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "63021 Завіска Vallen 180",
+      "qty": "1",
+      "unit_price": "410.00",
+      "amount": "410.00",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "Стіки TEREA Arbor Pearl",
+      "qty": "1",
+      "unit_price": "175.00",
+      "amount": "175.00",
+      "discount": null,
+      "vat_group": "Б"
+    },
+    {
+      "name": "Сигарети Camel Blue",
+      "qty": "1",
+      "unit_price": "175.00",
+      "amount": "175.00",
+      "discount": null,
+      "vat_group": "Б"
+    },
+    {
+      "name": "Стіки TEREA Amber",
+      "qty": "1",
+      "unit_price": "175.00",
+      "amount": "175.00",
+      "discount": null,
+      "vat_group": "Б"
+    }
+  ],
+  "vat": [
+    {
+      "group": "А",
+      "rate": "20",
+      "amount": "386.18"
+    },
+    {
+      "group": "Б",
+      "rate": "0",
+      "amount": "0.00"
+    }
+  ],
+  "discount_total": null,
+  "total": "2842.10",
+  "payment_method": "card",
+  "category": "groceries"
+}

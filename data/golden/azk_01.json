@@ -1,0 +1,33 @@
+{
+  "seller": {
+    "name": "ПП \"УКРПАЛЕТСИСТЕМ\"",
+    "vat_payer_number": "322852206095",
+    "tax_id": "32285225",
+    "address": "Київська обл., Бориспільський р-н, с.Щасливе, вул.Харківське шосе, 13"
+  },
+  "receipt_number": "448678",
+  "fiscal_number": "3001071005",
+  "issued_at": "2026-08-28T21:33:14",
+  "currency": "UAH",
+  "items": [
+    {
+      "name": "Бензин авт А95-Євро5-Е10",
+      "qty": "26.18",
+      "unit_price": "78.90",
+      "amount": "2065.60",
+      "discount": null,
+      "vat_group": "А"
+    }
+  ],
+  "vat": [
+    {
+      "group": "А",
+      "rate": "20",
+      "amount": "344.27"
+    }
+  ],
+  "discount_total": null,
+  "total": "2065.60",
+  "payment_method": "card",
+  "category": "fuel"
+}

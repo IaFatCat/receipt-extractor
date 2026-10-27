@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Any
 
 from .config import DATA, GOLDEN, RESULTS, ROOT, TEXTS
-from .metrics import compute_run, golden_arithmetic
+from .metrics import ITEM_FIELDS, compute_run, golden_arithmetic
 from .schema import SCALAR_FIELDS, Receipt
 
 START, END = "<!-- AUTO:START -->", "<!-- AUTO:END -->"
@@ -79,9 +79,9 @@ def render(runs: list[dict[str, Any]], golden: dict[str, Receipt]) -> str:
 
     out += ["", "## Точність по полях", "", "| Поле | " + " | ".join(m["run_id"] for m in runs) + " |",
             "|---|" + "---|" * len(runs)]
-    for f in SCALAR_FIELDS + ["seller.address"]:
+    for f in SCALAR_FIELDS:
         out.append(f"| {f} | " + " | ".join(_f(m["fields"].get(f)) for m in runs) + " |")
-    for f in ("name", "qty", "unit_price", "amount", "vat_group"):
+    for f in ITEM_FIELDS:
         out.append(f"| items.{f} (зіставлені) | "
                    + " | ".join(_f(m["items"]["matched_field_accuracy"].get(f)) for m in runs) + " |")
     out.append("| vat.rate | " + " | ".join(_f(m["vat"]["rate_correct"]) for m in runs) + " |")

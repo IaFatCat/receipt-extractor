@@ -1,0 +1,137 @@
+{
+  "seller": {
+    "name": "ТОВ \"НОВУС УКРАЇНА\"",
+    "vat_payer_number": "360036026593",
+    "tax_id": null,
+    "address": "КИЇВСЬКА ОБЛАСТЬ, БОРИСПІЛЬСЬКИЙ РАЙОН, М. БОРИСПІЛЬ ВУЛ. КИЇВСЬКИЙ ШЛЯХ, БУД. 2/6"
+  },
+  "receipt_number": "106038",
+  "fiscal_number": "3000780445",
+  "issued_at": "2026-07-23T18:29:20",
+  "currency": "UAH",
+  "items": [
+    {
+      "name": "Пакет середній 34*55 Novus 7кг",
+      "qty": "1",
+      "unit_price": null,
+      "amount": "5.99",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "Шинка Фітнес Яловича натуральна в/к ваг",
+      "qty": "0.144",
+      "unit_price": "999.00",
+      "amount": "143.86",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "Корейка по кіровоград.Ятрань к/в в/г ваг",
+      "qty": "0.226",
+      "unit_price": "699.00",
+      "amount": "157.97",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "Шинка ювілейна Ятрань к/в в/г т/у ваг",
+      "qty": "0.216",
+      "unit_price": "461.40",
+      "amount": "99.66",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "Козинаки хомка насіння+льон АСК 450г",
+      "qty": "1",
+      "unit_price": null,
+      "amount": "99.99",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "Йогурт 2,2% Галичина ман. папая 300г пл.",
+      "qty": "1",
+      "unit_price": null,
+      "amount": "38.49",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "Йогурт 2,2% Галичина ананас 300г пл.",
+      "qty": "1",
+      "unit_price": null,
+      "amount": "38.49",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "Йогурт 2,2% Ліс. ягода Галичина ПЕТ300г",
+      "qty": "1",
+      "unit_price": null,
+      "amount": "38.49",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "Огірок тепличний ваг",
+      "qty": "0.548",
+      "unit_price": "35.89",
+      "amount": "19.67",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "Яйце куряче С0 Молодильне Ясенсвіт 10шт",
+      "qty": "1",
+      "unit_price": null,
+      "amount": "72.99",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "Сметана 20% Галичина 300г стакан",
+      "qty": "1",
+      "unit_price": null,
+      "amount": "69.99",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "Сир к/м б/л 5% Яготин 350г пакет",
+      "qty": "1",
+      "unit_price": null,
+      "amount": "119.00",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "Хліб Бородинський Кулиничі н/ск. 400г",
+      "qty": "1",
+      "unit_price": null,
+      "amount": "40.79",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "Пакет майка зелений біо",
+      "qty": "1",
+      "unit_price": null,
+      "amount": "1.49",
+      "discount": null,
+      "vat_group": "А"
+    }
+  ],
+  "vat": [
+    {
+      "group": "А",
+      "rate": "20",
+      "amount": "157.81"
+    }
+  ],
+  "discount_total": null,
+  "total": "946.87",
+  "payment_method": "card",
+  "category": "groceries"
+}

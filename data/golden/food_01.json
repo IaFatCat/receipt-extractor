@@ -1,0 +1,49 @@
+{
+  "seller": {
+    "name": "ПІІ \"МакДональдз Юкрейн Лтд\"",
+    "vat_payer_number": "237444526652",
+    "tax_id": null,
+    "address": "Київська область, Бориспільський район село Гора, вул. Бориспільська, 6"
+  },
+  "receipt_number": "000205557",
+  "fiscal_number": "3000932994",
+  "issued_at": "2026-05-25T21:51:01",
+  "currency": "UAH",
+  "items": [
+    {
+      "name": "БІГ ТЕЙСТІ СИНГЛ МЕНЮ",
+      "qty": "1",
+      "unit_price": null,
+      "amount": "290.00",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "ДІПИ КАРТОПЛЯНІ МЕНЮ додатково",
+      "qty": "1",
+      "unit_price": null,
+      "amount": "15.00",
+      "discount": null,
+      "vat_group": "А"
+    },
+    {
+      "name": "АПЕЛЬС СІК ВЕЛ МЕНЮ додатково",
+      "qty": "1",
+      "unit_price": null,
+      "amount": "20.00",
+      "discount": null,
+      "vat_group": "А"
+    }
+  ],
+  "vat": [
+    {
+      "group": "А",
+      "rate": "20",
+      "amount": "54.17"
+    }
+  ],
+  "discount_total": null,
+  "total": "325.00",
+  "payment_method": "card",
+  "category": "meals"
+}

@@ -1,0 +1,57 @@
+{
+  "seller": {
+    "name": "ЗОРІНА КРІСТІНА ПАВЛІВНА",
+    "vat_payer_number": null,
+    "tax_id": "2981206608",
+    "address": "БОРИСПІЛЬСЬКИИ Р-Н, М. БОРИСПІЛЬ КИУВСЬКИИ ШЛЯХ, БУД. 2/2"
+  },
+  "receipt_number": "9988",
+  "fiscal_number": "3001258680",
+  "issued_at": "2026-09-05T17:35:20",
+  "currency": "UAH",
+  "items": [
+    {
+      "name": "СИР РАДОМЕР СЕРЕНАДА 45% КГ",
+      "qty": "0.294",
+      "unit_price": "419.90",
+      "amount": "123.45",
+      "discount": null,
+      "vat_group": "Н"
+    },
+    {
+      "name": "СОСИСКИ ДИТЯЧІ В/С (ЧЕРЕВА) (Б)",
+      "qty": "0.450",
+      "unit_price": "254.50",
+      "amount": "114.53",
+      "discount": null,
+      "vat_group": "Н"
+    },
+    {
+      "name": "ПАКЕТИ ФАСУВАЛЬНІ №9 10 МКР 1000 ШТ/УП",
+      "qty": "1",
+      "unit_price": "0.40",
+      "amount": "0.40",
+      "discount": null,
+      "vat_group": "Н"
+    },
+    {
+      "name": "СЕРВЕЛАТ В/К В/С (НАКАТ) (Б)",
+      "qty": "0.316",
+      "unit_price": "369.50",
+      "amount": "116.76",
+      "discount": null,
+      "vat_group": "Н"
+    }
+  ],
+  "vat": [
+    {
+      "group": "Н",
+      "rate": null,
+      "amount": null
+    }
+  ],
+  "discount_total": null,
+  "total": "355.14",
+  "payment_method": "card",
+  "category": "groceries"
+}
