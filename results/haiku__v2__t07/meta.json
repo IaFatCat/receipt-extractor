@@ -1,0 +1,33 @@
+{
+  "run_id": "haiku__v2__t07",
+  "model_key": "haiku",
+  "provider": "openai",
+  "model": "anthropic/claude-haiku-5.5",
+  "hardware": null,
+  "base_url": "https://openrouter.ai/api/v1",
+  "prompt_version": "v2",
+  "prompt_sha": "1946d51d9ac1",
+  "schema_sha": "d757d36797a6",
+  "sampling_key": "t07",
+  "sampling": {
+    "temperature": 0.7,
+    "top_p": 0.9
+  },
+  "repeats": 3,
+  "top_p_sent": true,
+  "think": null,
+  "num_ctx": null,
+  "num_thread": null,
+  "prices_per_1m": {
+    "in": 0.1,
+    "out": 0.5,
+    "cache_read": 0.0,
+    "cache_write": 0.0
+  },
+  "timeout_s": 120.0,
+  "max_reask": 1,
+  "n_docs": 32,
+  "git_commit": "37fdb69-dirty",
+  "finished_at": "2026-10-27T20:06:27+00:00",
+  "python": "3.11.1"
+}

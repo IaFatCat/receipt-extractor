@@ -1,0 +1,40 @@
+{
+  "doc_id": "shop_03",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ТОВ \"НОВА дня 1\"",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "М. БОРИСПІЛЬ, ВУЛ. ГОРБАТИКА, 2"
+    },
+    "receipt_number": "8180",
+    "fiscal_number": null,
+    "issued_at": "2026-08-22T19:50:55Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Кран кутовий FADO NEW 3 керамічною головкою 1/2, серія 70",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "540.5",
+        "discount": null,
+        "vat_group": "A"
+      }
+    ],
+    "vat": [
+      {
+        "group": "A",
+        "rate": "20",
+        "amount": null
+      }
+    ],
+    "discount_total": null,
+    "total": "540.5",
+    "payment_method": "card",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

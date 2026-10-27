@@ -1,0 +1,40 @@
+{
+  "doc_id": "shop_04",
+  "repeat": 2,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ФОП",
+      "vat_payer_number": "328355113247",
+      "tax_id": null,
+      "address": "пр-т Ватутіна (Романа Шухевича), Дніпровський р-н"
+    },
+    "receipt_number": "8844982",
+    "fiscal_number": "3ae1id2a71",
+    "issued_at": "2026-06-28T20:07:24Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "ОЗУ 09-31 ШОРТИ ЧОИОВІЧ",
+        "qty": "1",
+        "unit_price": "599.88",
+        "amount": "599.88",
+        "discount": null,
+        "vat_group": "A"
+      }
+    ],
+    "vat": [
+      {
+        "group": "A",
+        "rate": "20",
+        "amount": "805"
+      }
+    ],
+    "discount_total": null,
+    "total": "599",
+    "payment_method": "card",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

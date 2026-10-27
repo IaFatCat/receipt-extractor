@@ -1,0 +1,122 @@
+{
+  "doc_id": "super_01",
+  "repeat": 1,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ТОВ \"НОВУС УКРАЇНА\"",
+      "vat_payer_number": "360036026593",
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": "1060",
+    "fiscal_number": "3000780445",
+    "issued_at": "2026-07-23T18:29:20Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Йогурт 2,2% Галичина ман. папая 300г пл",
+        "qty": "3",
+        "unit_price": "12.83",
+        "amount": "38.49",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Йогурт 2,25 Галичина ананас 300г",
+        "qty": "1",
+        "unit_price": "8.49",
+        "amount": "8.49",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "2,28 Ліс. ягода Галичина Пе",
+        "qty": "1",
+        "unit_price": "3.49",
+        "amount": "3.49",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Огірок тепличний",
+        "qty": "0.548",
+        "unit_price": "35.89",
+        "amount": "19.67",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Куряче CO Молодильне",
+        "qty": "1",
+        "unit_price": "72.99",
+        "amount": "72.99",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Сметана 205 ралинина 300г стакан",
+        "qty": "1",
+        "unit_price": "69.99",
+        "amount": "69.99",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Сир к/м б/л 5% Яготин 350г пакет",
+        "qty": "1",
+        "unit_price": "9",
+        "amount": "9",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Пакет середня 34455 Novus",
+        "qty": "1",
+        "unit_price": "5.99",
+        "amount": "5.99",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Шинка фітнес Яловича натуральна в/",
+        "qty": "1",
+        "unit_price": "143.86",
+        "amount": "143.86",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Ятрань к/в",
+        "qty": "1",
+        "unit_price": "17.97",
+        "amount": "17.97",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Ятрань к/в ювілейна",
+        "qty": "0.16",
+        "unit_price": "461.4",
+        "amount": "99.99",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Пакет майка зелений 610",
+        "qty": "1",
+        "unit_price": "1.49",
+        "amount": "1.49",
+        "discount": null,
+        "vat_group": "А"
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "946.87",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

@@ -26,7 +26,7 @@ models:
     model: qwen3.5:4b              # 4B: має працювати на ноутбуці ментора
     num_ctx: 8192             # без цього Ollama тихо обрізає довгі чеки
     think: false              # qwen3.5 за замовчуванням міркує -> завищені latency і токени; потрібна Ollama >= 0.31.2
-    hardware: "TODO: CPU/GPU, RAM сервера Ollama"   # потрапляє в meta.json; latency включає мережу VPS -> сервер
+    hardware: "CPU only, 16 ядер (14 потоків для Ollama), 48 ГБ RAM"   # потрапляє в meta.json; latency включає мережу VPS -> сервер
     num_thread: 14            # CPU-потоки Ollama на виклик: лишаємо 2 ядра з 16 системі
     concurrency: 1            # по одному запиту: паралельні запити ділять ті самі ядра
 

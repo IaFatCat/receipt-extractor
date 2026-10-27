@@ -65,7 +65,18 @@ def same(a: Any, b: Any) -> bool:
     return norm_value(a) == norm_value(b)
 
 
+NAME_SIM = 0.8  # поріг схожості для назв (продавця, позицій)
+
+
+def similar(a: str, b: str) -> bool:
+    """Назви порівнюються нечітко: golden — те, що надруковано, а модель бачить текст після OCR
+    («Crikw TEREA» замість «Стіки TEREA»). Точний збіг назв міряв би OCR, а не модель."""
+    return SequenceMatcher(None, norm_str(a), norm_str(b)).ratio() >= NAME_SIM
+
+
 def same_field(field: str, g: Any, p: Any) -> bool:
+    if field == "seller.name" and isinstance(g, str) and isinstance(p, str):
+        return similar(g, p)
     if field == "receipt_number" and isinstance(g, str) and isinstance(p, str):
         # «ЧЕК № 000205557 00451»: другий номер — службовий, обидва варіанти вважаємо правильними
         return norm_str(g) == norm_str(p) or norm_str(g) in [norm_str(t) for t in p.split()]
@@ -74,6 +85,10 @@ def same_field(field: str, g: Any, p: Any) -> bool:
 
 def same_item_field(field: str, g: Any, p: Any) -> bool:
     gv, pv = getattr(g, field), getattr(p, field)
+    if field == "name":
+        return similar(gv, pv)
+    if gv is None and pv is None:
+        return True
     if field == "discount":
         return same(gv or Decimal(0), pv or Decimal(0))
     if field == "unit_price" and (gv is None or pv is None) and g.qty == 1:

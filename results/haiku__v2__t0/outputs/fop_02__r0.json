@@ -1,0 +1,64 @@
+{
+  "doc_id": "fop_02",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "SOPIHA KPICTIHA ПАВЛІВНА",
+      "vat_payer_number": null,
+      "tax_id": "2081200608",
+      "address": "BOPHCNIAbUBKHH Р-Н, М. БОРИСПТЛЬ, 2 KUYBCHKHM шлях, BYA. 2/2"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "СОСИСКИ ДИТЯЧІ СЕРЕНАДА",
+        "qty": "0.294",
+        "unit_price": "419",
+        "amount": "123.95",
+        "discount": null,
+        "vat_group": "H"
+      },
+      {
+        "name": "СОСИСКИ ДИТЯЧІ СЕРЕНАДА",
+        "qty": "0.45",
+        "unit_price": "254.5",
+        "amount": "114.53",
+        "discount": null,
+        "vat_group": "H"
+      },
+      {
+        "name": "ПАКЕТИ ФАСУВАЛЬНІ №9 10 МКР 1000 WT",
+        "qty": "1",
+        "unit_price": "0.4",
+        "amount": "0.4",
+        "discount": null,
+        "vat_group": "H"
+      },
+      {
+        "name": "СЕРВЕЛАТ В/К В/С СНАКАТ",
+        "qty": "0.316",
+        "unit_price": "369.5",
+        "amount": "116.76",
+        "discount": null,
+        "vat_group": "H"
+      }
+    ],
+    "vat": [
+      {
+        "group": "H",
+        "rate": null,
+        "amount": null
+      }
+    ],
+    "discount_total": null,
+    "total": "355.14",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

@@ -1,0 +1,40 @@
+{
+  "doc_id": "shop_01",
+  "repeat": 1,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ТОВ \"IIpuBarinBect\"",
+      "vat_payer_number": "215505526546",
+      "tax_id": "21550555",
+      "address": "УКРАЇНА, М.КИЇВ, ГОЛОСІЇВСЬКИЙ Р-Н, вул.Васильківська,37-А"
+    },
+    "receipt_number": "q64DxalJXX0",
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Монітор Dell $2725DC (210-BSR",
+        "qty": "1",
+        "unit_price": "14062",
+        "amount": "14062",
+        "discount": null,
+        "vat_group": "А"
+      }
+    ],
+    "vat": [
+      {
+        "group": "А",
+        "rate": "20",
+        "amount": "2343.67"
+      }
+    ],
+    "discount_total": null,
+    "total": "14062",
+    "payment_method": "card",
+    "category": "office"
+  },
+  "error": null,
+  "last_raw": null
+}

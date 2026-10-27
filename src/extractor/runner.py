@@ -23,7 +23,7 @@ from typing import Literal
 
 from pydantic import BaseModel, ValidationError
 
-from .config import CACHE, PROMPTS, RESULTS, ROOT, TEXTS, Experiments, ModelCfg, Secrets, load_secrets
+from .config import CACHE, GOLDEN, PROMPTS, RESULTS, ROOT, TEXTS, Experiments, ModelCfg, Secrets, load_secrets
 from .providers import (
     AnthropicProvider,
     OllamaProvider,
@@ -205,11 +205,16 @@ async def run_model(mkey: str, m: ModelCfg, p: Provider, exp: Experiments, docs:
 
 
 async def run_all(exp: Experiments, only_models: list[str] | None = None,
+                  only_sampling: list[str] | None = None, golden_only: bool = False,
                   only_prompts: list[str] | None = None) -> None:
     secrets, docs = load_secrets(), load_docs()
     if not docs:
         print(f"⚠ Немає текстів у {TEXTS.relative_to(ROOT)} — прогін пропущено, звіт збирається з results/.")
         return
+    if golden_only:  # стохастичні повтори повільної локальної моделі — лише там, де їх є з чим порівняти
+        docs = {k: v for k, v in docs.items() if (GOLDEN / f"{k}.json").exists()}
+    if only_sampling:
+        exp = exp.model_copy(update={"sampling": {k: v for k, v in exp.sampling.items() if k in only_sampling}})
     prompts = only_prompts or exp.prompts
     for mkey, m in exp.models.items():
         if only_models and mkey not in only_models:

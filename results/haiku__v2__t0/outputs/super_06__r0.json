@@ -1,0 +1,48 @@
+{
+  "doc_id": "super_06",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ТОВ \"ЕКО\"",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "КИЇВСЬКА ОБЛАСТЬ, БОРИСПІЛЬСЬКИЙ РАЙОН, м. БОРИСПІЛЬ ВУЛ. п КИЇВСЬКИЙ шлях, БУД. 2-14"
+    },
+    "receipt_number": "7179567988",
+    "fiscal_number": "4000525456",
+    "issued_at": "2026-06-25T18:33:32Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Напій швепо Грейпфрутіл",
+        "qty": "1",
+        "unit_price": "48.5",
+        "amount": "48.5",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Хпіб Кулинибород 4бог",
+        "qty": "1",
+        "unit_price": "39.9",
+        "amount": "39.9",
+        "discount": null,
+        "vat_group": "А"
+      }
+    ],
+    "vat": [
+      {
+        "group": "А",
+        "rate": "20",
+        "amount": "14.73"
+      }
+    ],
+    "discount_total": null,
+    "total": "88.4",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

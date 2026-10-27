@@ -1,0 +1,8 @@
+{
+  "doc_id": "azk_04",
+  "repeat": 0,
+  "status": "failed",
+  "data": null,
+  "error": "validation: re-ask вичерпано: 1 validation error for Receipt\nitems.0.qty\n  Input should be a valid decimal [type=decimal_parsing, input_value='невідомо', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/decimal_parsing",
+  "last_raw": "{\"seller\":{\"name\":\"ТОВ \\\"СОКАР ПЕТРОЛЕУМ\\\"\",\"vat_payer_number\":\"363052623016\",\"tax_id\":null,\"address\":\"АЗС №06/5 з магазином, АГЗП та Katlerepien, Черкаська обл. Золотоніський D-H, с. Софіївка, Черкаський шлях, 68\"},\"receipt_number\":\"3240140 3871\",\"fiscal_number\":null,\"issued_at\":\"2026-06-21T19:06:56+00:00\",\"currency\":\"UAH\",\"items\":[{\"name\":\"Бензин А-95-Евро\",\"qty\":\"невідомо\",\"unit_price\":null,\"amount\":1983.25,\"discount\":null,\"vat_group\":\"В\"}],\"vat\":[{\"group\":\"В\",\"rate\":null,\"amount\":330.34}],\"discount_total\":null,\"total\":1983.25,\"payment_method\":\"card\",\"category\":\"fuel\"}"
+}

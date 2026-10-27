@@ -39,13 +39,16 @@ def main() -> None:
     r = sub.add_parser("run")
     r.add_argument("--models", nargs="*")
     r.add_argument("--prompts", nargs="*")
+    r.add_argument("--sampling", nargs="*", help="лише ці конфігурації семплінгу, напр. t0")
+    r.add_argument("--golden-only", action="store_true", help="лише чеки з golden set")
     sub.add_parser("report")
     g = sub.add_parser("golden-draft")
     g.add_argument("--run", required=True)
     g.add_argument("--docs", nargs="*")
     a = ap.parse_args()
     if a.cmd == "run":
-        asyncio.run(run_all(load_experiments(), a.models, a.prompts))
+        asyncio.run(run_all(load_experiments(), only_models=a.models, only_prompts=a.prompts,
+                            only_sampling=a.sampling, golden_only=a.golden_only))
         update_report()
     elif a.cmd == "report":
         update_report()

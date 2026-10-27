@@ -1,0 +1,194 @@
+{
+  "doc_id": "food_04",
+  "repeat": 2,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ТОВ «KAHI-2525»",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": "2026-05-01T20:46:54Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Салат з телятиною",
+        "qty": "1",
+        "unit_price": "149",
+        "amount": "149",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Салат по-грузинськи",
+        "qty": "1",
+        "unit_price": "149",
+        "amount": "149",
+        "discount": null,
+        "vat_group": "М"
+      },
+      {
+        "name": "Салат \"Сада\"",
+        "qty": "1",
+        "unit_price": "149",
+        "amount": "149",
+        "discount": null,
+        "vat_group": "КО"
+      },
+      {
+        "name": "Шурпа",
+        "qty": "1",
+        "unit_price": "145",
+        "amount": "145",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Хачапури Ачма",
+        "qty": "1",
+        "unit_price": "150",
+        "amount": "150",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Хачапурі по-аджарськи",
+        "qty": "4",
+        "unit_price": "188",
+        "amount": "632",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Долма",
+        "qty": "1",
+        "unit_price": "171",
+        "amount": "171",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Картопля фрі",
+        "qty": "1",
+        "unit_price": "118",
+        "amount": "118",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Сулугуні з помідором",
+        "qty": "1",
+        "unit_price": "167",
+        "amount": "167",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Запечене ребро в медовому соусі",
+        "qty": "1",
+        "unit_price": "197",
+        "amount": "197",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Ребро \"Семечки\"",
+        "qty": "1",
+        "unit_price": "250",
+        "amount": "250",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Овочі на грилі",
+        "qty": "1",
+        "unit_price": "223",
+        "amount": "223",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Кубдарі",
+        "qty": "2",
+        "unit_price": "158",
+        "amount": "316",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Шашлики зі свинини",
+        "qty": "1",
+        "unit_price": "263",
+        "amount": "263",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Аджика",
+        "qty": "1",
+        "unit_price": "62",
+        "amount": "62",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Соління по-грузинськи",
+        "qty": "1",
+        "unit_price": "171",
+        "amount": "171",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Карлсберг безалкогольний 450 мл",
+        "qty": "3",
+        "unit_price": "136",
+        "amount": "408",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Вино Vardiani Алазанська долина черв.н/сол 100 мл",
+        "qty": "5",
+        "unit_price": "83",
+        "amount": "415",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Грузинський лимонад",
+        "qty": "1",
+        "unit_price": "160",
+        "amount": "160",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Xinkani3cupom (1 шт)",
+        "qty": "5",
+        "unit_price": "23",
+        "amount": "115",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Картопля по домашньому",
+        "qty": "1",
+        "unit_price": "97",
+        "amount": "97",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "6327.2",
+    "payment_method": "unknown",
+    "category": "meals"
+  },
+  "error": null,
+  "last_raw": null
+}

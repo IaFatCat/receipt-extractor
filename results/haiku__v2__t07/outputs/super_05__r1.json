@@ -1,0 +1,34 @@
+{
+  "doc_id": "super_05",
+  "repeat": 1,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ТОВ Сільпо",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "Київська обл., м. Бориспіль, вул. Київський шлях, 2"
+    },
+    "receipt_number": "391",
+    "fiscal_number": null,
+    "issued_at": "2026-05-28T19:44:10Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Сигарети-Мастер",
+        "qty": "0.246",
+        "unit_price": "749",
+        "amount": "184.25",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "434.25",
+    "payment_method": "card",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

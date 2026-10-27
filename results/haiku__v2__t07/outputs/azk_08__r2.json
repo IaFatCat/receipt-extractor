@@ -1,0 +1,34 @@
+{
+  "doc_id": "azk_08",
+  "repeat": 2,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ТОВ \"ПИ ОУКРПАЛЕТСИСТЕМ\"",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "Київська обл, Бориспільський р-н, с. Гнідине, вул. Карківське, 1с"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "ШТРИХКОД 7622100810069 / УКТЗЕД 2404110010",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "180",
+        "discount": "80",
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "360",
+    "payment_method": "card",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

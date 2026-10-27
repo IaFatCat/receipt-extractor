@@ -55,9 +55,9 @@
   "golden_docs": 10,
   "fields": {
     "seller.name": {
-      "k": 1,
+      "k": 4,
       "n": 10,
-      "rate": 0.1
+      "rate": 0.4
     },
     "seller.tax_id": {
       "k": 7,
@@ -106,9 +106,9 @@
     }
   },
   "field_accuracy_micro": {
-    "k": 64,
+    "k": 67,
     "n": 100,
-    "rate": 0.64
+    "rate": 0.67
   },
   "hallucinated": {
     "k": 1,
@@ -126,9 +126,9 @@
     "f1": 0.9286,
     "matched_field_accuracy": {
       "name": {
-        "k": 9,
+        "k": 38,
         "n": 52,
-        "rate": 0.1731
+        "rate": 0.7308
       },
       "qty": {
         "k": 45,
@@ -136,9 +136,9 @@
         "rate": 0.8654
       },
       "unit_price": {
-        "k": 43,
+        "k": 46,
         "n": 52,
-        "rate": 0.8269
+        "rate": 0.8846
       },
       "amount": {
         "k": 45,
@@ -192,14 +192,14 @@
   },
   "by_segment_field_accuracy": {
     "azk": {
-      "k": 14,
+      "k": 15,
       "n": 30,
-      "rate": 0.4667
+      "rate": 0.5
     },
     "other": {
-      "k": 50,
+      "k": 52,
       "n": 70,
-      "rate": 0.7143
+      "rate": 0.7429
     }
   },
   "stability_all_repeats_identical": null
