@@ -1,0 +1,42 @@
+{
+  "doc_id": "super_05",
+  "repeat": 2,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "TOR CEKOU",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "Чкразна, Кизвоюка обл. , Me Бориспі rts, выл. КизвсьКий шияжм, 2°14"
+    },
+    "receipt_number": "391",
+    "fiscal_number": null,
+    "issued_at": "2026-05-28T19:44:10+03:00",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "KOBBAC APO OBM ACHE",
+        "qty": "1",
+        "unit_price": "249",
+        "amount": "249",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Сиртвеніте-Маасд",
+        "qty": "1",
+        "unit_price": "749",
+        "amount": "749",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "434.25",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

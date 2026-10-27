@@ -28,8 +28,12 @@ class ModelCfg(BaseModel):
     price_cache_write: float = 0.0
     num_ctx: int = 8192
     think: bool = False
+    num_thread: int | None = None  # Ollama: скільки ядер CPU брати; None — рішення Ollama
     send_top_p: bool = False
     base_url: str | None = None
+    api_key_env: str | None = None   # з якої змінної .env брати ключ (для openai-сумісних: OpenRouter тощо)
+    schema_in_prompt: bool = False   # дублювати JSON Schema в system-промпті (коли response_format не підтримано)
+    extra_body: dict = Field(default_factory=dict)  # додаткові поля запиту, напр. налаштування маршрутизації OpenRouter
     hardware: str | None = None  # де фізично крутиться модель: для чесного «год / 1000»
     concurrency: int = 1
 
@@ -48,7 +52,9 @@ class Experiments(BaseModel):
 
 class Secrets(BaseModel):
     anthropic_api_key: SecretStr | None = None
+    anthropic_workspace_id: str | None = None
     openai_api_key: SecretStr | None = None
+    openrouter_api_key: SecretStr | None = None
     ollama_base_url: str = "http://localhost:11434"
 
 
@@ -68,7 +74,9 @@ def load_secrets() -> Secrets:
     _load_dotenv(ROOT / ".env")
     return Secrets(
         anthropic_api_key=os.getenv("ANTHROPIC_API_KEY") or None,
+        anthropic_workspace_id=os.getenv("ANTHROPIC_WORKSPACE_ID") or None,
         openai_api_key=os.getenv("OPENAI_API_KEY") or None,
+        openrouter_api_key=os.getenv("OPENROUTER_API_KEY") or None,
         ollama_base_url=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"),
     )
 

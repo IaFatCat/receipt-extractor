@@ -1,0 +1,96 @@
+{
+  "doc_id": "fop_01",
+  "repeat": 2,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "магазин \"Наркетопт\"",
+      "vat_payer_number": "305740855920",
+      "tax_id": null,
+      "address": "вул. Центральна, буд, 2-й a, село Гурівка, Кропивницький р-н, Кіровоградська обл."
+    },
+    "receipt_number": "11650133",
+    "fiscal_number": "3001247585",
+    "issued_at": "2026-06-20T15:52:37+03:00",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Хліб ІЛОНА таро Ваїнський 500 г",
+        "qty": "1",
+        "unit_price": "46.6",
+        "amount": "46.6",
+        "discount": "1.86",
+        "vat_group": "A"
+      },
+      {
+        "name": "Гірчиця ВЕРЕС Франц Узька 130 г д/п",
+        "qty": "1",
+        "unit_price": "23.6",
+        "amount": "23.6",
+        "discount": "0.94",
+        "vat_group": "A"
+      },
+      {
+        "name": "Гірчиця ВЕРЕС Українська 130 г д/п",
+        "qty": "1",
+        "unit_price": "18.9",
+        "amount": "18.9",
+        "discount": "0.16",
+        "vat_group": "A"
+      },
+      {
+        "name": "Гірчиця ВЕРЕС Домашня 130 г д/п",
+        "qty": "1",
+        "unit_price": "23.6",
+        "amount": "23.6",
+        "discount": "0.94",
+        "vat_group": "A"
+      },
+      {
+        "name": "Круасан Малина 385 г",
+        "qty": "1",
+        "unit_price": "75.7",
+        "amount": "75.7",
+        "discount": "3.79",
+        "vat_group": "A"
+      },
+      {
+        "name": "Круасан зі смаком маракуйї 385 г",
+        "qty": "1",
+        "unit_price": "75.7",
+        "amount": "75.7",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "Круасан Шоколад 350 г",
+        "qty": "1",
+        "unit_price": "90.9",
+        "amount": "90.9",
+        "discount": "3.64",
+        "vat_group": "B"
+      },
+      {
+        "name": "Пакет п/е майка MARKETONT",
+        "qty": "1",
+        "unit_price": "6.9",
+        "amount": "6.9",
+        "discount": "0.28",
+        "vat_group": "A"
+      }
+    ],
+    "vat": [
+      {
+        "group": "A",
+        "rate": "20",
+        "amount": null
+      }
+    ],
+    "discount_total": null,
+    "total": "347.42",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

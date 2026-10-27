@@ -1,0 +1,42 @@
+{
+  "doc_id": "super_04",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "Магазин \"Ал Мар\"",
+      "vat_payer_number": "448230010043",
+      "tax_id": null,
+      "address": "Київська область, ВОриспільський район, село Щасливе, вул. Лесі Українки, буд. 14"
+    },
+    "receipt_number": "7737231376",
+    "fiscal_number": "4000379956",
+    "issued_at": "2026-09-06T14:26:00Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "240411001 0#TEREA Blue",
+        "qty": "1",
+        "unit_price": "180",
+        "amount": "180",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "9404110010#TEREA Amber",
+        "qty": "1",
+        "unit_price": "180",
+        "amount": "180",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "350.09",
+    "payment_method": "card",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

@@ -79,7 +79,8 @@ async def _post_with_retry(client: httpx.AsyncClient, url: str, *, json_body: di
                                        wait=_RetryAfterWait(), reraise=True):
         with attempt:
             r = await client.post(url, json=json_body, headers=headers, timeout=timeout_s)
-            r.raise_for_status()
+            if r.status_code >= 400:  # тіло відповіді — головна підказка (OpenRouter пише причину 404 саме там)
+                raise httpx.HTTPStatusError(f"{r.status_code} {url}: {r.text[:600]}", request=r.request, response=r)
             return r.json()
     raise AssertionError("unreachable")
 
@@ -89,9 +90,10 @@ async def _post_with_retry(client: httpx.AsyncClient, url: str, *, json_body: di
 class OllamaProvider:
     name = "ollama"
 
-    def __init__(self, model: str, base_url: str, num_ctx: int = 8192, think: bool = False,
+    def __init__(self, model: str, base_url: str, num_ctx: int = 8192, think: bool = False, num_thread: int | None = None,
                  transport_attempts: int = 4) -> None:
         self.model, self.num_ctx, self.think, self.attempts = model, num_ctx, think, transport_attempts
+        self.num_thread = num_thread
         self.client = httpx.AsyncClient(base_url=base_url)
 
     async def check(self) -> None:
@@ -113,7 +115,8 @@ class OllamaProvider:
             "format": schema,                 # constrained decoding за JSON Schema
             "messages": [{"role": "system", "content": system}, *messages],
             "options": {"temperature": sampling.temperature, "top_p": sampling.top_p,
-                        "num_ctx": self.num_ctx},
+                        "num_ctx": self.num_ctx,
+                        **({"num_thread": self.num_thread} if self.num_thread else {})},
         })
         msg = d.get("message", {})
         in_tok = d.get("prompt_eval_count", 0) or 0
@@ -136,12 +139,15 @@ class AnthropicProvider:
     TOOL = "save_receipt"
 
     def __init__(self, model: str, api_key: str | None, max_tokens: int = 4096,
-                 send_top_p: bool = False, transport_attempts: int = 5) -> None:
+                 send_top_p: bool = False, transport_attempts: int = 5, workspace_id: str | None = None) -> None:
         if not api_key:
             raise ProviderUnavailable("ANTHROPIC_API_KEY не задано в .env — платна модель пропускається.")
         self.model, self.max_tokens, self.send_top_p, self.attempts = model, max_tokens, send_top_p, transport_attempts
-        self.client = httpx.AsyncClient(base_url="https://api.anthropic.com", headers={
-            "x-api-key": api_key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
+        headers = {"Authorization": f"Bearer {api_key}", "anthropic-version": "2023-06-01",
+                   "content-type": "application/json"}
+        if workspace_id:  # потрібен, лише якщо ключ не прив'язаний до workspace
+            headers["anthropic-workspace-id"] = workspace_id
+        self.client = httpx.AsyncClient(base_url="https://api.anthropic.com", headers=headers)
 
     async def check(self) -> None:
         return None
@@ -183,11 +189,21 @@ class OpenAICompatProvider:
     name = "openai"
 
     def __init__(self, model: str, api_key: str | None, base_url: str = "https://api.openai.com/v1",
-                 transport_attempts: int = 5) -> None:
+                 transport_attempts: int = 5, key_name: str = "OPENAI_API_KEY",
+                 extra_body: dict | None = None, schema_in_prompt: bool = False, max_tokens: int = 4096) -> None:
         if not api_key:
-            raise ProviderUnavailable("OPENAI_API_KEY не задано в .env — платна модель пропускається.")
-        self.model, self.attempts = model, transport_attempts
+            raise ProviderUnavailable(f"{key_name} не задано в .env — платна модель пропускається.")
+        self.model, self.attempts, self.extra_body = model, transport_attempts, extra_body or {}
+        self.schema_in_prompt = schema_in_prompt
+        # Без max_tokens OpenRouter резервує кредити під максимум моделі (65536) і повертає 402 на малому балансі
+        self.max_tokens = max_tokens
         self.client = httpx.AsyncClient(base_url=base_url, headers={"Authorization": f"Bearer {api_key}"})
+
+    def _schema_hint(self, schema: dict[str, Any]) -> str:
+        # Якщо провайдер не підтримує response_format, схема в промпті — єдине, що задає формат
+        if not self.schema_in_prompt:
+            return ""
+        return "\n\nJSON Schema відповіді:\n" + json.dumps(schema, ensure_ascii=False)
 
     async def check(self) -> None:
         return None
@@ -196,12 +212,16 @@ class OpenAICompatProvider:
         d = await _post_with_retry(self.client, "/chat/completions", headers=None, timeout_s=timeout_s,
                                    attempts=self.attempts, json_body={
             "model": self.model,
-            "messages": [{"role": "system", "content": system}, *messages],
+            "messages": [{"role": "system", "content": system + self._schema_hint(schema)}, *messages],
             # strict=false: схема має необов'язкові поля з default, strict їх не допускає
             "response_format": {"type": "json_schema",
                                 "json_schema": {"name": "receipt", "schema": schema, "strict": False}},
             "temperature": sampling.temperature, "top_p": sampling.top_p,
+            "max_tokens": self.max_tokens,
+            **self.extra_body,
         })
+        if "choices" not in d:  # OpenRouter повертає помилку провайдера з кодом 200
+            raise RuntimeError(f"Немає choices у відповіді: {str(d.get('error', d))[:300]}")
         u = d.get("usage", {})
         cached = (u.get("prompt_tokens_details") or {}).get("cached_tokens", 0) or 0
         choice = d["choices"][0]

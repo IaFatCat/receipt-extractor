@@ -1,0 +1,206 @@
+{
+  "run_id": "haiku__v1__t0",
+  "model_key": "haiku",
+  "model": "anthropic/claude-haiku-5.5",
+  "provider": "openai",
+  "prompt_version": "v1",
+  "sampling_key": "t0",
+  "repeats": 1,
+  "calls": 32,
+  "valid_first_try": {
+    "k": 28,
+    "n": 32,
+    "rate": 0.875
+  },
+  "valid_after_reask": {
+    "k": 4,
+    "n": 32,
+    "rate": 0.125
+  },
+  "failed": {
+    "k": 0,
+    "n": 32,
+    "rate": 0.0
+  },
+  "latency_p50_s": 3.591,
+  "latency_p95_s": 14.912249999999998,
+  "avg_in_tokens": 8476.96875,
+  "avg_out_tokens": 748.125,
+  "cost_per_1000_usd": 1.2218,
+  "hours_per_1000_sequential": 1.44,
+  "thinking_chars_total": 0,
+  "ctx_truncated": 0,
+  "not_in_text": {
+    "k": 52,
+    "n": 218,
+    "rate": 0.2385
+  },
+  "arithmetic_pred": {
+    "sum_eq_total": {
+      "k": 18,
+      "n": 32,
+      "rate": 0.5625
+    },
+    "qty_x_price": {
+      "k": 15,
+      "n": 19,
+      "rate": 0.7895
+    },
+    "vat_consistent": {
+      "k": 8,
+      "n": 11,
+      "rate": 0.7273
+    }
+  },
+  "golden_docs": 10,
+  "fields": {
+    "seller.name": {
+      "k": 1,
+      "n": 10,
+      "rate": 0.1
+    },
+    "seller.tax_id": {
+      "k": 7,
+      "n": 10,
+      "rate": 0.7
+    },
+    "seller.vat_payer_number": {
+      "k": 7,
+      "n": 10,
+      "rate": 0.7
+    },
+    "receipt_number": {
+      "k": 4,
+      "n": 10,
+      "rate": 0.4
+    },
+    "fiscal_number": {
+      "k": 4,
+      "n": 10,
+      "rate": 0.4
+    },
+    "issued_at": {
+      "k": 5,
+      "n": 10,
+      "rate": 0.5
+    },
+    "currency": {
+      "k": 10,
+      "n": 10,
+      "rate": 1.0
+    },
+    "discount_total": {
+      "k": 9,
+      "n": 10,
+      "rate": 0.9
+    },
+    "total": {
+      "k": 8,
+      "n": 10,
+      "rate": 0.8
+    },
+    "payment_method": {
+      "k": 9,
+      "n": 10,
+      "rate": 0.9
+    }
+  },
+  "field_accuracy_micro": {
+    "k": 64,
+    "n": 100,
+    "rate": 0.64
+  },
+  "hallucinated": {
+    "k": 1,
+    "n": 20,
+    "rate": 0.05
+  },
+  "missed": {
+    "k": 14,
+    "n": 60,
+    "rate": 0.2333
+  },
+  "items": {
+    "precision": 0.9455,
+    "recall": 0.9123,
+    "f1": 0.9286,
+    "matched_field_accuracy": {
+      "name": {
+        "k": 9,
+        "n": 52,
+        "rate": 0.1731
+      },
+      "qty": {
+        "k": 45,
+        "n": 52,
+        "rate": 0.8654
+      },
+      "unit_price": {
+        "k": 43,
+        "n": 52,
+        "rate": 0.8269
+      },
+      "amount": {
+        "k": 45,
+        "n": 52,
+        "rate": 0.8654
+      },
+      "discount": {
+        "k": 49,
+        "n": 52,
+        "rate": 0.9423
+      },
+      "vat_group": {
+        "k": 45,
+        "n": 52,
+        "rate": 0.8654
+      }
+    }
+  },
+  "vat": {
+    "group_recall": {
+      "k": 5,
+      "n": 11,
+      "rate": 0.4545
+    },
+    "rate_correct": {
+      "k": 5,
+      "n": 5,
+      "rate": 1.0
+    },
+    "amount_correct": {
+      "k": 4,
+      "n": 5,
+      "rate": 0.8
+    }
+  },
+  "category": {
+    "accuracy": {
+      "k": 8,
+      "n": 10,
+      "rate": 0.8
+    },
+    "confusion": {
+      "fuel->fuel": 1,
+      "fuel->other": 1,
+      "groceries->groceries": 3,
+      "groceries->other": 1,
+      "meals->meals": 2,
+      "office->office": 1,
+      "other->other": 1
+    }
+  },
+  "by_segment_field_accuracy": {
+    "azk": {
+      "k": 14,
+      "n": 30,
+      "rate": 0.4667
+    },
+    "other": {
+      "k": 50,
+      "n": 70,
+      "rate": 0.7143
+    }
+  },
+  "stability_all_repeats_identical": null
+}

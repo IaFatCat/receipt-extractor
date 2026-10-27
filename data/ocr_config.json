@@ -1,0 +1,16 @@
+{
+  "engine": "tesseract",
+  "version": "5.4.0.20240606",
+  "lang": "ukr+eng+rus",
+  "oem": 1,
+  "psm": 4,
+  "preprocess": [
+    "receipt_crop_hsv_paper_mask+deskew_minAreaRect",
+    "grayscale",
+    "resize_to_width_1600",
+    "illumination_divide_median61",
+    "otsu_threshold"
+  ],
+  "qr": "cv2.QRCodeDetector.detectAndDecodeMulti, фільтр за доменом tax.gov.ua",
+  "manual_edits": "немає; змінено лише маскування персональних даних"
+}

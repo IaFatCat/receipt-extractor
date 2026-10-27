@@ -1,0 +1,34 @@
+{
+  "doc_id": "azk_10",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "Дель",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": "2026-09-07T19:39:59+03:00",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Бензин авт A99-Capo5-E1",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "1959.34",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "1953.39",
+    "payment_method": "card",
+    "category": "fuel"
+  },
+  "error": null,
+  "last_raw": null
+}

@@ -11,7 +11,10 @@ from __future__ import annotations
 import asyncio
 import hashlib
 import json
+import os
 import subprocess
+
+import httpx
 import sys
 import time
 from datetime import datetime, timezone
@@ -81,7 +84,7 @@ async def extract(p: Provider, doc_id: str, repeat: int, text: str, system: str,
     for attempt in range(1, max_reask + 2):
         try:
             raw = await p.complete(system, messages, SCHEMA, sampling, timeout_s)
-        except Exception as e:  # транспорт вичерпав retry або 4xx
+        except (httpx.HTTPError, TimeoutError, RuntimeError) as e:  # транспорт вичерпав retry, 4xx, помилка провайдера
             return done(status="failed", first_try_valid=False, attempts=attempt, error=f"transport: {e!r}"[:500])
         for k in acc:  # вартість і токени — по ВСІХ спробах, інакше re-ask «здешевлює» модель
             acc[k] += getattr(raw, k)
@@ -104,12 +107,16 @@ async def extract(p: Provider, doc_id: str, repeat: int, text: str, system: str,
 
 def build_provider(m: ModelCfg, s: Secrets) -> Provider:
     if m.provider == "ollama":
-        return OllamaProvider(m.model, m.base_url or s.ollama_base_url, num_ctx=m.num_ctx, think=m.think)
+        return OllamaProvider(m.model, m.base_url or s.ollama_base_url, num_ctx=m.num_ctx, think=m.think,
+                              num_thread=m.num_thread)
     if m.provider == "anthropic":
         key = s.anthropic_api_key.get_secret_value() if s.anthropic_api_key else None
-        return AnthropicProvider(m.model, key, send_top_p=m.send_top_p)
-    key = s.openai_api_key.get_secret_value() if s.openai_api_key else None
-    return OpenAICompatProvider(m.model, key, base_url=m.base_url or "https://api.openai.com/v1")
+        return AnthropicProvider(m.model, key, send_top_p=m.send_top_p, workspace_id=s.anthropic_workspace_id)
+    key_name = m.api_key_env or "OPENAI_API_KEY"
+    secret = {"OPENAI_API_KEY": s.openai_api_key, "OPENROUTER_API_KEY": s.openrouter_api_key}.get(key_name)
+    key = secret.get_secret_value() if secret else (os.getenv(key_name) or None)
+    return OpenAICompatProvider(m.model, key, base_url=m.base_url or "https://api.openai.com/v1",
+                                key_name=key_name, extra_body=m.extra_body, schema_in_prompt=m.schema_in_prompt)
 
 
 def _git_commit() -> str:
@@ -123,7 +130,7 @@ def _git_commit() -> str:
 
 
 def _cache_key(m: ModelCfg, prompt_sha: str, sampling: Sampling, text: str, repeat: int) -> str:
-    payload = [m.provider, m.model, m.think, m.num_ctx, prompt_sha, SCHEMA_SHA,
+    payload = [m.provider, m.model, m.base_url, m.schema_in_prompt, m.extra_body, m.think, m.num_ctx, prompt_sha, SCHEMA_SHA,
                sampling.model_dump(), text, repeat]
     return hashlib.sha256(json.dumps(payload, ensure_ascii=False).encode()).hexdigest()
 
@@ -166,7 +173,7 @@ async def run_model(mkey: str, m: ModelCfg, p: Provider, exp: Experiments, docs:
                     if not res.error or not res.error.startswith("transport"):  # транспортні збої не кешуємо
                         cpath.write_text(res.model_dump_json(), encoding="utf-8")
                 done_n += 1
-                mark = "✓" if res.status == "ok" else "✗"
+                mark = "✓" if res.status == "ok" else f"✗ {(res.error or '')[:160]}"
                 print(f"  [{run_id}] {done_n}/{len(jobs)} {doc_id} r{rep} {mark}"
                       f"{' (cache)' if res.cache_hit else f' {res.latency_s:.1f}s'}", flush=True)
                 return res
@@ -181,11 +188,13 @@ async def run_model(mkey: str, m: ModelCfg, p: Provider, exp: Experiments, docs:
                         encoding="utf-8")
             meta = {
                 "run_id": run_id, "model_key": mkey, "provider": m.provider, "model": m.model, "hardware": m.hardware,
+                "base_url": m.base_url,
                 "prompt_version": pv, "prompt_sha": prompt_sha, "schema_sha": SCHEMA_SHA,
                 "sampling_key": skey, "sampling": sampling.model_dump(), "repeats": sc.repeats,
                 "top_p_sent": m.provider != "anthropic" or (m.send_top_p and sampling.top_p < 1.0),
                 "think": m.think if m.provider == "ollama" else None,
                 "num_ctx": m.num_ctx if m.provider == "ollama" else None,
+                "num_thread": m.num_thread if m.provider == "ollama" else None,
                 "prices_per_1m": {"in": m.price_in, "out": m.price_out,
                                   "cache_read": m.price_cache_read, "cache_write": m.price_cache_write},
                 "timeout_s": exp.timeout_s, "max_reask": exp.max_reask, "n_docs": len(docs),

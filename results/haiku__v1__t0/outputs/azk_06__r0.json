@@ -1,0 +1,34 @@
+{
+  "doc_id": "azk_06",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "УКРПАЛЕТСИСТЕМ",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "Київська обл, Бориспільський, вул Харківське"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": "2028-08-17T21:34:00Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "[ПОЗИЦІЯ НЕЧИТАБЕЛЬНА]",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "2360.47",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "2360.47",
+    "payment_method": "card",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

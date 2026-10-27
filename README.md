@@ -8,7 +8,7 @@
 
 ```bash
 cp .env.example .env      # необов'язково: без ключа платна модель пропускається
-ollama pull qwen3:4b-instruct-2507   # необов'язково: без Ollama локальна модель пропускається
+ollama pull qwen3.5:4b   # необов'язково: без Ollama локальна модель пропускається
 make run
 ```
 

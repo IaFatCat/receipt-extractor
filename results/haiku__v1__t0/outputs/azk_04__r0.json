@@ -1,0 +1,40 @@
+{
+  "doc_id": "azk_04",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ТОВ \"СОКАР ПЕТРОЛЕУМ\"",
+      "vat_payer_number": "363052623016",
+      "tax_id": null,
+      "address": "АЗС №06/5 з магазином, АГЗП та Katlerepien, Черкаська обл. Золотоніський D-H, с. Софіївка, Черкаський шлях, 68"
+    },
+    "receipt_number": "M 3240140",
+    "fiscal_number": "3001212342",
+    "issued_at": "2026-06-21T19:06:56+03:00",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Бензин A-95-Epp05-E0",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "1983.25",
+        "discount": null,
+        "vat_group": "В"
+      }
+    ],
+    "vat": [
+      {
+        "group": "В",
+        "rate": "20",
+        "amount": "330.34"
+      }
+    ],
+    "discount_total": null,
+    "total": "1983.25",
+    "payment_method": "card",
+    "category": "fuel"
+  },
+  "error": null,
+  "last_raw": null
+}

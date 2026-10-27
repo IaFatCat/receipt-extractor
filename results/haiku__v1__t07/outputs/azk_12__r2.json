@@ -1,0 +1,40 @@
+{
+  "doc_id": "azk_12",
+  "repeat": 2,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ПИ \"УКРПАЛЕТСИСТЕМА\"",
+      "vat_payer_number": null,
+      "tax_id": "173861124",
+      "address": "Харківське шосе, 13"
+    },
+    "receipt_number": "495194",
+    "fiscal_number": null,
+    "issued_at": "2026-06-26T18:19:32+03:00",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "PAHSAKUTA 6768",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "2064.77",
+        "discount": null,
+        "vat_group": "А"
+      }
+    ],
+    "vat": [
+      {
+        "group": "А",
+        "rate": "20",
+        "amount": "344.13"
+      }
+    ],
+    "discount_total": null,
+    "total": "2064.77",
+    "payment_method": "card",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

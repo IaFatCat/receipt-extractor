@@ -1,0 +1,56 @@
+{
+  "doc_id": "super_03",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ТОВ \"ЕКО\"",
+      "vat_payer_number": "821042526608",
+      "tax_id": "92104264",
+      "address": "КИЇВСЬКА ОБЛАСТЬ, БОРИСПОЛЬСЬКИЙ РАЙОН, М. БОРИСПІЛЬ ВУЛ. КИЇВСЬКИЙ ШЛЯХ, БУД. 2-14"
+    },
+    "receipt_number": "830",
+    "fiscal_number": null,
+    "issued_at": "2028-07-13T19:50:08+03:00",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Сигарети з фільтром Blue20ur",
+        "qty": "1",
+        "unit_price": "175",
+        "amount": "175",
+        "discount": null,
+        "vat_group": "Б"
+      },
+      {
+        "name": "ТВЕН TEREA BLUE 20wr/y",
+        "qty": "1",
+        "unit_price": "175",
+        "amount": "175",
+        "discount": null,
+        "vat_group": "Б"
+      },
+      {
+        "name": "Ст1киТЕВЕААтЬ",
+        "qty": "1",
+        "unit_price": "175",
+        "amount": "175",
+        "discount": null,
+        "vat_group": "Б"
+      }
+    ],
+    "vat": [
+      {
+        "group": "Б",
+        "rate": "20",
+        "amount": null
+      }
+    ],
+    "discount_total": null,
+    "total": "525",
+    "payment_method": "card",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

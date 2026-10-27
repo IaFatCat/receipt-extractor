@@ -69,8 +69,10 @@ class VatLine(_Strict):
 
 class Seller(_Strict):
     name: str | None = Field(None, description="Назва продавця дослівно (ТОВ/ФОП …)")
-    vat_payer_number: str | None = Field(None, pattern=r"^\d{12}$", description="«ПН» — 12 цифр")
-    tax_id: str | None = Field(None, pattern=r"^\d{8}$|^\d{10}$", description="«ІД»: ЄДРПОУ (8) або РНОКПП ФОП (10)")
+    # Формат (12 / 8 / 10 цифр) свідомо НЕ валідується regex-ом: OCR губить або додає цифру, і тоді весь чек
+    # ставав би failed через одне поле. Неправильне значення ловить порівняння з golden, а не схема.
+    vat_payer_number: str | None = Field(None, description="«ПН» — зазвичай 12 цифр, копіюй як надруковано")
+    tax_id: str | None = Field(None, description="«ІД»: ЄДРПОУ (8 цифр) або РНОКПП ФОП (10 цифр), як надруковано")
     address: str | None = None
 
 
@@ -87,7 +89,7 @@ class ReceiptItem(_Strict):
 class Receipt(_Strict):
     seller: Seller
     receipt_number: str | None = Field(None, description="«ЧЕК №», буває буквено-цифровий")
-    fiscal_number: str | None = Field(None, pattern=r"^\d{10}$", description="«ФН» / «ФН ПРРО» — 10 цифр")
+    fiscal_number: str | None = Field(None, description="«ФН» / «ФН ПРРО» — зазвичай 10 цифр, як надруковано")
     issued_at: datetime | None = Field(None, description="Дата й час видачі чека")
     currency: Currency
     items: list[ReceiptItem] = Field(min_length=1)

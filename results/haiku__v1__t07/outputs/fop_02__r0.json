@@ -1,0 +1,64 @@
+{
+  "doc_id": "fop_02",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ФОП SOPIHA KPICTIHA ПАВЛІВНА",
+      "vat_payer_number": null,
+      "tax_id": "2081200608",
+      "address": "BOPHCNIAbUBKHH Р-Н, М. БОРИСПТЛЬ, KUYBCHKHM шлях, BYA. 2/2"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "CHP PAAOMEP СЕРЕНАДА 455 КГ",
+        "qty": "0.29",
+        "unit_price": "419",
+        "amount": "123.95",
+        "discount": null,
+        "vat_group": "Н"
+      },
+      {
+        "name": "СОСИСКИ ДИТЯЧІ Bsc CUEPEBA",
+        "qty": "0.45",
+        "unit_price": "254.5",
+        "amount": "114.53",
+        "discount": null,
+        "vat_group": "Н"
+      },
+      {
+        "name": "ПАКЕТИ @ACYBAADHI №9 10 МКР 1000 WT",
+        "qty": "1",
+        "unit_price": "0.4",
+        "amount": "0.4",
+        "discount": null,
+        "vat_group": "Н"
+      },
+      {
+        "name": "CEPBEAAT B/K B/C CHAKAT",
+        "qty": "0.316",
+        "unit_price": "369.5",
+        "amount": "116.76",
+        "discount": null,
+        "vat_group": "Н"
+      }
+    ],
+    "vat": [
+      {
+        "group": "Н",
+        "rate": null,
+        "amount": null
+      }
+    ],
+    "discount_total": null,
+    "total": "355.14",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

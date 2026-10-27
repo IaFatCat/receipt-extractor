@@ -1,0 +1,40 @@
+{
+  "doc_id": "azk_13",
+  "repeat": 1,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ПП \"УКРПАЛЕТСИСТЕМ\"",
+      "vat_payer_number": "322852206095",
+      "tax_id": null,
+      "address": "Кіровоградська обл., Кропивницький р-н, м.Долинська, Вул.Чумацький шлях, буд. 5"
+    },
+    "receipt_number": "21210139",
+    "fiscal_number": "3001218451",
+    "issued_at": "2026-09-09T18:04:34+03:00",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "ЖРК №1 КРАН N3 РЕЗ. МІ ПОСТОПЛАТА",
+        "qty": "20.93",
+        "unit_price": null,
+        "amount": "1714.17",
+        "discount": null,
+        "vat_group": "A"
+      }
+    ],
+    "vat": [
+      {
+        "group": "A",
+        "rate": "20",
+        "amount": "285.70"
+      }
+    ],
+    "discount_total": null,
+    "total": "1714.17",
+    "payment_method": "card",
+    "category": "fuel"
+  },
+  "error": null,
+  "last_raw": null
+}

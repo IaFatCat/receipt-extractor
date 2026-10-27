@@ -1,0 +1,34 @@
+{
+  "doc_id": "azk_03",
+  "repeat": 1,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ПП УКРПАЕТСИСТЕУ\"",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "Київська обл., Бориспільський р-н, с. Цасливе, вул. Харкавське шосе, 1c"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Сигарети «ТІ Canel Blue 720,006",
+        "qty": "1",
+        "unit_price": "18",
+        "amount": "18",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "1080",
+    "payment_method": "card",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

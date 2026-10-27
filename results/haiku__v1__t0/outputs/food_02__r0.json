@@ -1,0 +1,56 @@
+{
+  "doc_id": "food_02",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ТОВ \"МакДональдз Юкрейн\"",
+      "vat_payer_number": "23744452669",
+      "tax_id": null,
+      "address": "Київська область, Бориспільський район, село Гора"
+    },
+    "receipt_number": "00028213",
+    "fiscal_number": "3000932994",
+    "issued_at": "2026-01-01T19:59:15+02:00",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "БІГ TEWCTI СИНГЛ МЕНЮ",
+        "qty": "1",
+        "unit_price": "298",
+        "amount": "298",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "КАРТ СЕЛЯН ВЕЛ",
+        "qty": "1",
+        "unit_price": "15",
+        "amount": "15",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "АПЕЛЬС СТК ВЕЛ МЕНЮ додатково",
+        "qty": "1",
+        "unit_price": "20",
+        "amount": "20",
+        "discount": null,
+        "vat_group": "A"
+      }
+    ],
+    "vat": [
+      {
+        "group": "A",
+        "rate": "20",
+        "amount": "55.5"
+      }
+    ],
+    "discount_total": null,
+    "total": "333",
+    "payment_method": "card",
+    "category": "meals"
+  },
+  "error": null,
+  "last_raw": null
+}

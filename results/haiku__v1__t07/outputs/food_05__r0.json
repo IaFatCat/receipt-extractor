@@ -1,0 +1,58 @@
+{
+  "doc_id": "food_05",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ТОВ \"МакДональдз Юкрейн Лтд\"",
+      "vat_payer_number": "237444526652",
+      "tax_id": null,
+      "address": "Київська область, Бориспільський район, село Гора, вул. Бориспільська, 6"
+    },
+    "receipt_number": "000269252 00448",
+    "fiscal_number": null,
+    "issued_at": "2026-07-21T21:42:25+03:00",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "В БІГ ТЕЙСТІ СИНГЛ МЕНЮ",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "298",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "1 БІГ ТЕЙСТІ СИНГЛ",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "15",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "МІ КАРТ СЕЛЯН BEN М",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "15",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "Не ВПЕЛЬС СТК ВЕЛ МЕНЮ додатково",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "20",
+        "discount": null,
+        "vat_group": "A"
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "333",
+    "payment_method": "card",
+    "category": "meals"
+  },
+  "error": null,
+  "last_raw": null
+}

@@ -1,0 +1,130 @@
+{
+  "doc_id": "super_01",
+  "repeat": 2,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ТОВ \"НОВУС УКРАЇНА\"",
+      "vat_payer_number": "360036026593",
+      "tax_id": null,
+      "address": "м. Київ, вул. Київська"
+    },
+    "receipt_number": "1060",
+    "fiscal_number": "3000780445",
+    "issued_at": "2026-07-23T18:29:20+03:00",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Йогурт 2,2% Галичина ман. папая 300г",
+        "qty": "3",
+        "unit_price": null,
+        "amount": "38.49",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Йогурт 2,25 Галичина ананас 300г",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "8.49",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Ліс. ягода Галичина",
+        "qty": "1",
+        "unit_price": "2.28",
+        "amount": "3.49",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Огірок тепличний",
+        "qty": "0.548",
+        "unit_price": null,
+        "amount": "19.67",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Куряче Молодильне",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "72.99",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Сметана 20% Галичина 300г стакан",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "69.99",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Сир к/м б/л 5% Яготин 350г пакет",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "9",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Пакет середня Novus",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "5.99",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Шинка фітнес Яловича натуральна",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "143.86",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Ятрань к/в",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "17.97",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Ятрань к/в ювілейна",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "99.99",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Бородинський Кулиничі н/ск",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "1.49",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Пакет майка зелений 610",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "1.49",
+        "discount": null,
+        "vat_group": "А"
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "946.87",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

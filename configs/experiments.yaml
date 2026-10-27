@@ -2,22 +2,33 @@
 # Ціни — $ за 1M токенів. Перевір актуальні перед прогоном.
 
 models:
-  haiku:
-    provider: anthropic
-    model: claude-haiku-5-5
-    price_in: 0.10            # промпти до 100k токенів
+  haiku:                      # Claude Haiku 5.5 через OpenRouter (OpenAI-сумісний API)
+    provider: openai
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    model: anthropic/claude-haiku-5.5
+    price_in: 0.10            # $ / 1M, промпти до 100k токенів; звір на openrouter.ai
     price_out: 0.50
-    price_cache_read: 0.01
-    price_cache_write: 0.125
-    send_top_p: false         # частина моделей Claude не приймає temperature разом із top_p
+    # На OpenRouter провайдер Haiku не оголошує підтримку response_format: з require_parameters: true
+    # запит отримував 404 «no endpoints». Тому схема йде в system-промпт, а JSON перевіряє наш код (+1 re-ask).
+    schema_in_prompt: true
     concurrency: 4
+  # haiku_direct:             # той самий Haiku напряму через Claude API (потрібен ANTHROPIC_API_KEY)
+  #   provider: anthropic
+  #   model: claude-haiku-5-5
+  #   price_in: 0.10
+  #   price_out: 0.50
+  #   price_cache_read: 0.01
+  #   price_cache_write: 0.125
+  #   concurrency: 4
   qwen:
     provider: ollama
-    model: qwen3:4b-instruct-2507   # 2–4B: має працювати на ноутбуці ментора
+    model: qwen3.5:4b              # 4B: має працювати на ноутбуці ментора
     num_ctx: 8192             # без цього Ollama тихо обрізає довгі чеки
-    think: false              # гібридні qwen3 за замовчуванням міркують -> завищені latency і токени
+    think: false              # qwen3.5 за замовчуванням міркує -> завищені latency і токени; потрібна Ollama >= 0.31.2
     hardware: "TODO: CPU/GPU, RAM сервера Ollama"   # потрапляє в meta.json; latency включає мережу VPS -> сервер
-    concurrency: 1
+    num_thread: 14            # CPU-потоки Ollama на виклик: лишаємо 2 ядра з 16 системі
+    concurrency: 1            # по одному запиту: паралельні запити ділять ті самі ядра
 
 prompts: [v1, v2]
 

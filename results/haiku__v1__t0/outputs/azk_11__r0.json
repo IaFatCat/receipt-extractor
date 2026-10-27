@@ -1,0 +1,50 @@
+{
+  "doc_id": "azk_11",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ТОВ \"УКРПАЛЕТСИСТЕМА\"",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "Київська обл, Бориспільський р-н, м. Бориспіль, вул. Харківське"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": "2026-06-25T18:00:00+03:00",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Сигарети УП Сане} Blue",
+        "qty": "1",
+        "unit_price": "350",
+        "amount": "175",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "TFAEASTEMVATBER",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "175",
+        "discount": "0",
+        "vat_group": null
+      },
+      {
+        "name": "DADE NCEPEARL TOE",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "175",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": "0",
+    "total": "131",
+    "payment_method": "card",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

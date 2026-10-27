@@ -1,0 +1,56 @@
+{
+  "doc_id": "super_02",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": null,
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": "7516695 11",
+    "fiscal_number": "4000793004",
+    "issued_at": "2023-08-09T18:52:00+03:00",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Штрикод 4262 з ня 1",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "99",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Гарантійний терем! рик",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "198",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Арт Ne 118305 кондиціонер",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "99",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [
+      {
+        "group": "А",
+        "rate": "20",
+        "amount": "56"
+      }
+    ],
+    "discount_total": null,
+    "total": "336",
+    "payment_method": "card",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

@@ -1,0 +1,34 @@
+{
+  "doc_id": "azk_07",
+  "repeat": 2,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ТОВ \"УКРПАЛЕТСИСТЕМ\"",
+      "vat_payer_number": null,
+      "tax_id": "65054440",
+      "address": "Бориспільський РН, Харківське шосе, 1с"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "[не розпізнано]",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "448.45",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "448.45",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}
