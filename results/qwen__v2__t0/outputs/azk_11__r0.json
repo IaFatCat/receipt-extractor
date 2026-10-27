@@ -1,0 +1,34 @@
+{
+  "doc_id": "azk_11",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "УКРПАЛЕТСИСТЕМ",
+      "vat_payer_number": null,
+      "tax_id": "2402209020",
+      "address": "Київська обл, рориспільський р- у, іасливе, вул. Харківське woce, ;"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": "2026-06-25T18:35:20Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Сигарети УП Сане} Blue",
+        "qty": "2",
+        "unit_price": null,
+        "amount": "350",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "751",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

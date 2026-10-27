@@ -1,0 +1,58 @@
+{
+  "doc_id": "super_02",
+  "repeat": 1,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": null,
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "3900 LUT pra: ay dee lots ту тю",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "39",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Арт Ne Ged gp Aye YWHIBGL сотни a туба tab ARTEL о.",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "39",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Гарантійний терем! рик",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "99",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Арт Ne 118305 Кк» ндиціонер afi ОВ",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "99",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "336",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

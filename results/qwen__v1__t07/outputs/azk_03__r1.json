@@ -1,0 +1,42 @@
+{
+  "doc_id": "azk_03",
+  "repeat": 1,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ПП УКРПАЕТСИСТЕУ\"",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "АЗК (магезин, кафе) та АГЗП №6\nКиївська сёл, , Бориспільський р-н,\nЕ с. Цасливе, вул, Харкавське шосе, 1c"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Сигарети «ТІ Canel Blue",
+        "qty": "720",
+        "unit_price": null,
+        "amount": "18",
+        "discount": null,
+        "vat_group": "00"
+      },
+      {
+        "name": "КАК (1,00",
+        "qty": "160",
+        "unit_price": null,
+        "amount": "180",
+        "discount": null,
+        "vat_group": "00"
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "1080",
+    "payment_method": "cash",
+    "category": "transport"
+  },
+  "error": null,
+  "last_raw": null
+}

@@ -1,0 +1,34 @@
+{
+  "doc_id": "shop_04",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ІП «ann Україна»",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "м. Дніпровський р-н ІІ пр-т renepana \"Ватутіна (Романа Шухевича) by"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": "2026-06-28T20:07:24Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "ОЗУ 09-31 ШОРТИ ЧОИОВІЧ",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "599.88",
+        "discount": null,
+        "vat_group": "A"
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "599.88",
+    "payment_method": "cash",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

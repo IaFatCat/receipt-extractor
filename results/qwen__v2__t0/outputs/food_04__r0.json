@@ -1,0 +1,8 @@
+{
+  "doc_id": "food_04",
+  "repeat": 0,
+  "status": "failed",
+  "data": null,
+  "error": "transport: ReadTimeout('')",
+  "last_raw": null
+}

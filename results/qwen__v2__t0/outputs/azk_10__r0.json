@@ -1,0 +1,34 @@
+{
+  "doc_id": "azk_10",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "Дель",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "Харківське Шосе 3220529"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": "0709-12-19T19:39:59Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Бензин авт A99-Capo5-E1",
+        "qty": "195.934",
+        "unit_price": null,
+        "amount": "1953.39",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "1953.39",
+    "payment_method": "cash",
+    "category": "transport"
+  },
+  "error": null,
+  "last_raw": null
+}

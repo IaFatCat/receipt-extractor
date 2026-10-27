@@ -1,0 +1,34 @@
+{
+  "doc_id": "azk_02",
+  "repeat": 2,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "(ЯК Меган каре) та AS @",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "мы bka обл, , Бориспільський р"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "EUR",
+    "items": [
+      {
+        "name": "Ш ae ayn Харківське Шосе, Ц va 7 | И na aur | Її ОЕ вом",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "720",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "720",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

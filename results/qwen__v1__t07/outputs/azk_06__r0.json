@@ -1,0 +1,50 @@
+{
+  "doc_id": "azk_06",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "MN \"УКРПАЛЕТСИСТЕМ\"",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "Київська обл, , Бориспільський ay (Вул Харківське woce, 1 | ВК HOAKUTA6447 ПРКЮ 8 ty 2 -> Е І, я"
+    },
+    "receipt_number": "RRN",
+    "fiscal_number": null,
+    "issued_at": "1720-08-28T21:34:00Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Транзакця",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "23.6047",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "ПЛАТІЖНА СИСТЕМА, VISA Ч",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "23.0937",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "DSA",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "23.8937",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "23.6047",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

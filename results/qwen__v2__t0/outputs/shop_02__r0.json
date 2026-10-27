@@ -1,0 +1,106 @@
+{
+  "doc_id": "shop_02",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ЛЬНИЙ КОМПЛЕКС",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "Київська обл, Укиспіль, ВЧЛ.ГоРбатнка 2 зоо 386185 14 30728887 ги 341001040983 ПН 307288826516 x НИЙ ЦЕНТР А"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": "2405-06-20T20:48:08Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Карниз ANA AYU. ШТОРКИ В fe 8%",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "519",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Полка для ванної кімнати",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "456",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Hasip СПаста Gebatut2 80 ча",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "281",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Кільця для шторки Bacche 97,00x 1= o7,00-A",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "7",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "ПРокладка силіконова 1/2 20,10х 1= 20,10-A,%%",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "20.1",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Гачок клейкий Н55-5025 Р ЕЕ",
+        "qty": "2",
+        "unit_price": null,
+        "amount": "534",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "63021 Завіска Uallen 180",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "410",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Crikw TEREA Arbor Pearl 175,00x 1= 175,00-Б",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "175",
+        "discount": null,
+        "vat_group": "Б"
+      },
+      {
+        "name": "Сигарети Camel Blue 175,00х 1= — 175,00-Б",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "175",
+        "discount": null,
+        "vat_group": "Б"
+      },
+      {
+        "name": "Crikw TEREA Amber 175,00x 1= 175 ,00-b ee",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "175",
+        "discount": null,
+        "vat_group": "Б"
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "2842.1",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

@@ -1,0 +1,8 @@
+{
+  "doc_id": "super_02",
+  "repeat": 0,
+  "status": "failed",
+  "data": null,
+  "error": "validation: re-ask вичерпано: 4 validation errors for Receipt\nitems.0.qty\n  Input should be a valid decimal [type=decimal_parsing, input_value='Карр Ма 739', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/decimal_parsing\nitems.1.qty\n  Input should be a valid decimal [type=decimal_parsing, in",
+  "last_raw": "{\n  \"seller\": {\n    \"name\": \"Та таці» рожа\"\n  },\n  \"currency\": \"UAH\",\n  \"items\": [\n    {\n      \"name\": \"Мh wb t08Gv6500\",\n      \"qty\": \"Карр Ма 739\",\n      \"amount\": 39.0,\n      \"unit_price\": 0.0\n    },\n    {\n      \"name\": \"LUT pra: ay dee lots ту тю\",\n      \"qty\": \"Apa Ne Ged gp Aye YWHIBGL сотни a туба tab ARTEL о.\",\n      \"amount\": 39.0,\n      \"unit_price\": 0.0\n    },\n    {\n      \"name\": \"Штрикод 4262 з ня 1 ADT NY 108532 п ля LED 5\",\n      \"qty\": \"дату» ОБОВ НСО ABU Зри) ЧООбЪ\",\n      \"amount\": 99.0,\n      \"unit_price\": 0.0\n    },\n    {\n      \"name\": \"Штрихкод BOLLE Je yee Арт Ne 118305 Кк» ндиціонер afi ОВ SONGT орд, вань 6 тбл Й\",\n      \"qty\": \"безкоштовні)\",\n      \"amount\": 99.0,\n      \"unit_price\": 0.0\n    }\n  ],\n  \"total\": 336.0,\n  \"payment_method\": \"card\",\n  \"category\": \"groceries\"\n}"
+}

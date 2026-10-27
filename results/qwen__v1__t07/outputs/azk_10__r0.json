@@ -1,0 +1,8 @@
+{
+  "doc_id": "azk_10",
+  "repeat": 0,
+  "status": "failed",
+  "data": null,
+  "error": "validation: re-ask вичерпано: 1 validation error for Receipt\nitems.0.qty\n  Input should be a valid decimal [type=decimal_parsing, input_value='322 уда 1\"', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/decimal_parsing",
+  "last_raw": "{\n  \"seller\": {\n    \"name\": null,\n    \"address\": null\n  },\n  \"currency\": \"UAH\",\n  \"items\": [\n    {\n      \"name\": \"КРАН но -> РЕЗЕРВУАР #4\",\n      \"qty\": \"322 уда 1\\\"\",\n      \"amount\": 0.0\n    }\n  ],\n  \"total\": 1953.9,\n  \"payment_method\": \"cash\",\n  \"category\": \"fuel\"\n}"
+}

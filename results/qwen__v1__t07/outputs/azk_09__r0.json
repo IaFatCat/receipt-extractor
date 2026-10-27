@@ -1,0 +1,8 @@
+{
+  "doc_id": "azk_09",
+  "repeat": 0,
+  "status": "failed",
+  "data": null,
+  "error": "validation: re-ask вичерпано: 3 validation errors for Receipt\nitems.0.qty\n  Input should be a valid decimal [type=decimal_parsing, input_value='null', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/decimal_parsing\nitems.0.amount\n  Input should be a valid decimal [type=decimal_parsing, input_",
+  "last_raw": "{\n  \"seller\": {\n    \"name\": \"wari a at my SE EIT TUES Te Sa BR Eh ACEP PE es ee\",\n    \"address\": \"НЯ HUCD <2, Вул,КиївВськ\"\n  },\n  \"currency\": \"UAH\",\n  \"items\": [\n    {\n      \"name\": \"Ш\",\n      \"qty\": \"null\",\n      \"amount\": \"null\"\n    }\n  ],\n  \"total\": \"null\",\n  \"payment_method\": \"card\",\n  \"category\": \"other\"\n}"
+}

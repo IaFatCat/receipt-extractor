@@ -1,0 +1,8 @@
+{
+  "doc_id": "fop_02",
+  "repeat": 0,
+  "status": "failed",
+  "data": null,
+  "error": "validation: re-ask вичерпано: 3 validation errors for Receipt\nitems.0.qty\n  Input should be a valid decimal [type=decimal_parsing, input_value='null', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/decimal_parsing\nitems.1.qty\n  Input should be a valid decimal [type=decimal_parsing, input_val",
+  "last_raw": "{\n  \"seller\": {\n    \"name\": \"МАГАЗИН Ш\",\n    \"address\": \"BOPHCNIAbUBKHH Р-Н, М. БОРИСПТЛЬ я 2 KUYBCHKHM шлях, BYA. 2/2 Р\"\n  },\n  \"currency\": \"UAH\",\n  \"items\": [\n    {\n      \"name\": \"ШЕ Ж ДН СТВА ВИНИ\",\n      \"qty\": \"null\",\n      \"amount\": \"123.95\"\n    },\n    {\n      \"name\": \"СОСИСКИ ДИТЯЧІ Bsc CUEPEBA)\",\n      \"qty\": \"419,00х 0, 29a=\",\n      \"amount\": \"114.53\"\n    },\n    {\n      \"name\": \"ПАКЕТИ @ACYBAADHI №9\",\n      \"qty\": \"10 МКР 1000 WT/\",\n      \"amount\": \"116.76\"\n    }\n  ],\n  \"total\": \"355.14\",\n  \"payment_method\": \"card\",\n  \"category\": \"groceries\"\n}"
+}

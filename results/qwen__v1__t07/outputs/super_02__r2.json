@@ -1,0 +1,82 @@
+{
+  "doc_id": "super_02",
+  "repeat": 2,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": null,
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "М'ягкий район, м",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "3900",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Карр Ма 739",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "3900",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Лут пра: ay dee lots ту тю",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "99",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "АПАРТ О.",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "99",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Гарантійний терем!",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "99",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "НІДІЦЙОНЕР afi OВ",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "99",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "безкоштовні)",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "0",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "336",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

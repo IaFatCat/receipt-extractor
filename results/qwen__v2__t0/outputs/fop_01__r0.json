@@ -1,0 +1,82 @@
+{
+  "doc_id": "fop_01",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ТОВ \"Наркетопт\"",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "вул. Центральна, буд, 2-й а сел. Гурівка, Кропивницький р-н Кіровоградська обл."
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": "2020-06-26T15:52:37Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "106043-Хліб ІЛОНА таро 'Ваїнський 500 г",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "46.6",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "55-Гірчиця ВЕРЕС Франц Узька 130 г д/п",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "23.6",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "23014-Хр1н ВЕРЕС Українсь Кий 130 г д/п",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "18.9",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "23014-Гірчиця ВЕРЕС Домаш ня 130 г д/п",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "75.7",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "154733-BB Круасан Малина 3685г",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "75",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "154737-BB Круасан зі смак ом маракуйї 385 г",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "90.9",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "1406-BB Круасан Шоколад я 350 0.08",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "6.9",
+        "discount": null,
+        "vat_group": "A"
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "347.42",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

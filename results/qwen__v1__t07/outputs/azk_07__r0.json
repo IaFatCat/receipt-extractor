@@ -1,0 +1,42 @@
+{
+  "doc_id": "azk_07",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "Ц 'УКРПАЛЕТСИСТЕУ\"",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "ТА обл, Бориспільський PH, В \\ | 2 Be, вул, Харкзвське woce, 1c Я"
+    },
+    "receipt_number": "6377",
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "ЕВА авт, 0 \"Євроб- \"E10 2146, 454 4",
+        "qty": "3",
+        "unit_price": null,
+        "amount": "490",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "368.08",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "858.08",
+    "payment_method": "cash",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

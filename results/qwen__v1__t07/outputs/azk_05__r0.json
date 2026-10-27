@@ -1,0 +1,34 @@
+{
+  "doc_id": "azk_05",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "Ш th ТВ",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "Київська 0; Oi, bop мепільський PH,"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "сигарети",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "35",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "35",
+    "payment_method": "cash",
+    "category": "transport"
+  },
+  "error": null,
+  "last_raw": null
+}

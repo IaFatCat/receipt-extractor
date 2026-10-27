@@ -1,0 +1,82 @@
+{
+  "doc_id": "fop_01",
+  "repeat": 1,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "магазин \"Наркетопт\"",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "вул. Центральна, буд, 2-й a ся село Гурівка, Кропивницький р-н чо щ Кіровоградська обл."
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Хліб ІЛОНА таро ' Ваїнський 500 г",
+        "qty": "4",
+        "unit_price": null,
+        "amount": "186.40",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Гірчиця ВЕРЕС Франц Узька 130 г д/п",
+        "qty": "5",
+        "unit_price": null,
+        "amount": "118.00",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Хр1н ВЕРЕС Українсь Кий 130 г д/п",
+        "qty": "5",
+        "unit_price": null,
+        "amount": "94.50",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Гірчиця ВЕРЕС Домаш ня 130 г д/п",
+        "qty": "2",
+        "unit_price": null,
+        "amount": "75.70",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "BB Круасан Малина '3685г",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "90.90",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "BB Круасан зі смак | ом маракуйї 385 г",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "6.90",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пакет п/е майка 34 - 05550 MAPKETONT",
+        "qty": "2",
+        "unit_price": null,
+        "amount": "13.80",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "347.42",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

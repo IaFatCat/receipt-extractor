@@ -1,0 +1,50 @@
+{
+  "doc_id": "food_02",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "МакДональдз Юкрейн Mra",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "Київська область, Бориспільський Півн. с. Гора, вул. Seagate aec Ka 6 wie"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": "2026-12-19T19:59:15Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "BIT TEWCTI СИНГЛ МЕНЮ",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "298",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "КАРТ СЕЛЯН ВЕЛ МЕНЮ додатково",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "15",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "АПЕЛЬС СТК ВЕЛ МЕНЮ",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "20",
+        "discount": null,
+        "vat_group": "A"
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "333",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

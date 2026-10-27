@@ -1,0 +1,34 @@
+{
+  "doc_id": "fop_03",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ТАТАРНІКОВ РОМАН ОЛЕКСІЙОВИЧ",
+      "vat_payer_number": null,
+      "tax_id": "3229713673",
+      "address": "м. Київ, Дарницький район, проспект Бажана, буд. З"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": "2207-10-26T19:44:05Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Пакет 20*35\nCYMA 3,00 ГРН",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "3",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "3",
+    "payment_method": "cash",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

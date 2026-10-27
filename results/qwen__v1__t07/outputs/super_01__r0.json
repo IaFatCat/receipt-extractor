@@ -1,0 +1,114 @@
+{
+  "doc_id": "super_01",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ТОВ HOBYC УКРАЇНА",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "КП М.М. he"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Йогурт 2,2% Галичина ман. папая 30",
+        "qty": "38.49",
+        "unit_price": null,
+        "amount": "115.47",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "йогурт 2,25 Галичина ананас 300р п",
+        "qty": "69.99",
+        "unit_price": null,
+        "amount": "21.19",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Ліс. ягода Галичина Пе 3",
+        "qty": "10.27",
+        "unit_price": null,
+        "amount": "10.27",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Огірок тепличний в",
+        "qty": "3.49",
+        "unit_price": null,
+        "amount": "3.49",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "куряче CO Молодильне AcexHcBiT cn.",
+        "qty": "19.67",
+        "unit_price": null,
+        "amount": "19.67",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Сметана 205 ралинина 300р стакан",
+        "qty": "19.67",
+        "unit_price": null,
+        "amount": "19.67",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Сир к/м б/л 5% Яготин 350р пакет",
+        "qty": "2.28",
+        "unit_price": null,
+        "amount": "2.28",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Шинка фітнес Яловича натуральна в/я",
+        "qty": "143.86",
+        "unit_price": null,
+        "amount": "143.86",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "ога по к! ово град. Ятрань к/в в",
+        "qty": "17.97",
+        "unit_price": null,
+        "amount": "17.97",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "ювілейна Ятрань к/в В/Г ШИ ый",
+        "qty": "23.07",
+        "unit_price": null,
+        "amount": "23.07",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пакет майка зелений 610",
+        "qty": "1.49",
+        "unit_price": null,
+        "amount": "1.49",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "946.87",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

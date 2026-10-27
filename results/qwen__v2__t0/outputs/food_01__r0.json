@@ -1,0 +1,42 @@
+{
+  "doc_id": "food_01",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "МакДональйз Юкрейн Мга",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "г. Бориспільський район Гора, вул. Бориспільська, 6"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": "2025-05-04T21:51:01Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "БІГ ТЕЙСТІ СИНГЛ МЕНН",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "290",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "АПЕЛЬС СТК ВЕЛ МЕНЮ",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "20",
+        "discount": null,
+        "vat_group": "8"
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "325",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

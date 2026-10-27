@@ -1,0 +1,106 @@
+{
+  "doc_id": "food_03",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": null,
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "ул овал ANAANALY"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "пастеризоване Пиво світле (ПОПЕЛКА ЛАГЕР) ПЕТ-кег (келих 0,5)",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "188",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Асорті горіхів",
+        "qty": "3",
+        "unit_price": null,
+        "amount": "324",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво MUZA IPA (5,4%) ПЕТ КЕГ (келих 0,3)",
+        "qty": "2",
+        "unit_price": null,
+        "amount": "246",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Донер 3 куркою грибами",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "318",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво MUZA IPA (5,4%) ПЕТ КЕГ (келих 0,5)",
+        "qty": "2",
+        "unit_price": null,
+        "amount": "376",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво світле IPA Outback (келих 0,5)",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "218",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво Цитадель Хмільний Нуль ПЕТ КЕГ (келих 0,5)",
+        "qty": "2",
+        "unit_price": null,
+        "amount": "336",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Фісташки",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "158",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво світле India Pale Ale Westward (келих 0,5)",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "208",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво Rebrew світле нефільтроване непастеризоване ПЕТ-кег (келих 0,3)",
+        "qty": "3",
+        "unit_price": null,
+        "amount": "309",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "2947",
+    "payment_method": "cash",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

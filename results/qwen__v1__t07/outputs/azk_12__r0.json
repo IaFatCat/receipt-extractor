@@ -1,0 +1,8 @@
+{
+  "doc_id": "azk_12",
+  "repeat": 0,
+  "status": "failed",
+  "data": null,
+  "error": "validation: re-ask вичерпано: 1 validation error for Receipt\nitems.0.qty\n  Input should be greater than 0 [type=greater_than, input_value=0.0, input_type=float]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than",
+  "last_raw": "{\n  \"seller\": {\n    \"name\": \"УКРПАЛЕТСИСТЕМ\",\n    \"address\": \"Київська обл, АО НАНА р-н\"\n  },\n  \"currency\": \"UAH\",\n  \"items\": [\n    {\n      \"name\": \"\",\n      \"qty\": 0.0,\n      \"amount\": 0.0\n    }\n  ],\n  \"total\": 0.0,\n  \"payment_method\": \"card\",\n  \"category\": \"transport\"\n}"
+}

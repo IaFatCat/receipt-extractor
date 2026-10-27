@@ -1,0 +1,42 @@
+{
+  "doc_id": "azk_13",
+  "repeat": 1,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ПП \"УКРПАЛЕТСИСТЕМ\" АЗС-магазин та АГЗП №208",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "Кіровоградська обл., Кропивницький р-н, м.Долинська, Вул.Чумацький шлях, буд. 5"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Венз,авт, ШройЗобврозЕТО",
+        "qty": "81.90",
+        "unit_price": null,
+        "amount": "643.50",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Маз,авт, Шроп",
+        "qty": "20.93",
+        "unit_price": null,
+        "amount": "1071.67",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "1815.17",
+    "payment_method": "card",
+    "category": "fuel"
+  },
+  "error": null,
+  "last_raw": null
+}

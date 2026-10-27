@@ -1,0 +1,42 @@
+{
+  "doc_id": "super_02",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": null,
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": "2023-08-09T18:52:05Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Гарантійний терем! рик",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "99",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Індикатор afi ОВ",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "99",
+        "discount": null,
+        "vat_group": "А"
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "336",
+    "payment_method": "cash",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

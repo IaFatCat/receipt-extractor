@@ -1,0 +1,50 @@
+{
+  "doc_id": "fop_02",
+  "repeat": 1,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "МАГАЗИН Ш",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "БОПHCNIAbUBKHH Р-Н, М. БОРИСПТЛЬ я 2 KUYBCHKHM шлях, BYA. 2/2 Р"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "CUEPEBA (в)",
+        "qty": "455",
+        "unit_price": null,
+        "amount": "123.95",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "СОСИСКИ ДИТЯЧІ",
+        "qty": "0.29",
+        "unit_price": null,
+        "amount": "116.76",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "ПАКЕТИ @ACYBAADHI №9",
+        "qty": "10",
+        "unit_price": null,
+        "amount": "114.53",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "355.14",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

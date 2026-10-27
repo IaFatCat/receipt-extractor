@@ -1,0 +1,42 @@
+{
+  "doc_id": "super_04",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "АлМар готель",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "Київська область, ВОриспільський район, село Щасливе, вул. Лесі Українки, буд. 14"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "TEREA Blue",
+        "qty": "1000",
+        "unit_price": null,
+        "amount": "180",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "TEREA Amber",
+        "qty": "1000",
+        "unit_price": null,
+        "amount": "180",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "350.09",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

@@ -1,0 +1,34 @@
+{
+  "doc_id": "azk_10",
+  "repeat": 2,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "Дель",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "КРАН но -> РЕЗЕРВУАР #4 Бензин авт A99-Capo5-E1",
+        "qty": "322",
+        "unit_price": null,
+        "amount": "1959.34",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "1953.9",
+    "payment_method": "cash",
+    "category": "fuel"
+  },
+  "error": null,
+  "last_raw": null
+}

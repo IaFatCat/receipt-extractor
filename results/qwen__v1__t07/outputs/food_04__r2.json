@@ -1,0 +1,178 @@
+{
+  "doc_id": "food_04",
+  "repeat": 2,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ТОВ «KAHI-2525»",
+      "vat_payer_number": null,
+      "tax_id": "2262,70",
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Салат з телятиною по-грузинськи",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "149",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Салат \"Сада\"",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "149",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Шурпа",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "145",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Хачапури Ачма по-аджарськи",
+        "qty": "4",
+        "unit_price": null,
+        "amount": "632",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Долма",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "171",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Картопля фрі",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "118",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Сулугунізпомідором",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "167",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Запечене ребро в медовому соусі",
+        "qty": "4",
+        "unit_price": null,
+        "amount": "197",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Ребро \"Семечки\"",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "250",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Овочі на грилі",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "223",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Кубдар!",
+        "qty": "2",
+        "unit_price": null,
+        "amount": "316",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Шашликізсвинини",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "263",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Аджика по-грузинськи",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "171",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Карлсберг безалкогольний",
+        "qty": "3",
+        "unit_price": null,
+        "amount": "408",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво Карлсберг 500 мл",
+        "qty": "5",
+        "unit_price": null,
+        "amount": "136",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Вино Vardiani Алгетинська долина черв.н/сол 100 мл",
+        "qty": "5",
+        "unit_price": null,
+        "amount": "415",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Грузинський лимонад",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "160",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Хinkani3cupom (1 шт)",
+        "qty": "5",
+        "unit_price": null,
+        "amount": "115",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Картопля домашнього",
+        "qty": "2",
+        "unit_price": null,
+        "amount": "97",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "6327.2",
+    "payment_method": "cash",
+    "category": "meals"
+  },
+  "error": null,
+  "last_raw": null
+}

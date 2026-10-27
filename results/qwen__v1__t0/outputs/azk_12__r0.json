@@ -1,0 +1,34 @@
+{
+  "doc_id": "azk_12",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "УКРПАЛЕТСИСТЕМ",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "Київська обл, АО НАНА р-н"
+    },
+    "receipt_number": "2710124501",
+    "fiscal_number": null,
+    "issued_at": "2026-06-26T18:19:32Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "BIANVCK ПМ PAHSAKUTA",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "6768.00",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "2064.77",
+    "payment_method": "card",
+    "category": "transport"
+  },
+  "error": null,
+  "last_raw": null
+}

@@ -1,0 +1,98 @@
+{
+  "doc_id": "food_03",
+  "repeat": 2,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "bypromictp",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "PH А Ул овал ANAANALY 119 оо 77"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "пастеризоване |S POPELKA LAGER ' (ЛОПЕЛКА | ‹ ЛАГЕР)», 5%, ПЕТ-кег (келих 0,5)",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "188",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Асорті горіхів. Пиво MUZA IPA (5,45) ПЕТ КЕГ 30n. Superdelic (келих 0.3)",
+        "qty": "3",
+        "unit_price": null,
+        "amount": "108",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво MUZA IPA (5,4%) ПЕТ КЕГ 30л. Superdelic (келих 0.5)",
+        "qty": "2",
+        "unit_price": null,
+        "amount": "123",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Донер 3 куркою Ta грибами",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "318",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво MUZA IPA (5,4%) ПЕТ КЕГ 30л. Superdelic (келих 0.5)",
+        "qty": "2",
+        "unit_price": null,
+        "amount": "188",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво світле Ne IPA Outback (келих 0.5)",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "218",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво Цитадель Xonni Kennep6ip, Kera 28h Хмільний Нуль (келих 0.5)",
+        "qty": "2",
+        "unit_price": null,
+        "amount": "168",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Фісташки 50r Пиво світле India Pale Ale Westward (келих 0.5)",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "158",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво Rebrew свіtle нефільтроване непастеризоване < POPELKA LAGER (ПОПЕЛКА ЛАГЕР)», 55, ПЕТ-кег (келих 0.3)",
+        "qty": "3",
+        "unit_price": null,
+        "amount": "103",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "2947",
+    "payment_method": "cash",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

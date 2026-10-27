@@ -1,0 +1,34 @@
+{
+  "doc_id": "azk_07",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": null,
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": "2023-10-27T22:54:14Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Бензин ЕВРО-АДВОЛІТНІЙ 95",
+        "qty": "18.2396123",
+        "unit_price": null,
+        "amount": "490",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "446.45",
+    "payment_method": "cash",
+    "category": "transport"
+  },
+  "error": null,
+  "last_raw": null
+}

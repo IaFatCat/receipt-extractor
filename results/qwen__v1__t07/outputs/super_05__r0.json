@@ -1,0 +1,42 @@
+{
+  "doc_id": "super_05",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "СЕкОНмерке г\"",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "Кизвоюка обл. , Me Бориспі rts выл. КизвсьКий шияжм, 2°14"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "КОBBAC APO OBM ACHE ital",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "249",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Мо шко BE BAS СиртвеНитге-Маасд 246 X 749,00",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "184.25",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "443.25",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

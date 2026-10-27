@@ -1,0 +1,50 @@
+{
+  "doc_id": "food_05",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "МакДональдз Юкреїн Лтд",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "Київська область, Бориспільський район, село Гора, вул. Бориспільська, 6"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "БІГ ТЕЙСТІ СИНГЛ МЕНЮ",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "298",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "БІГ ТЕЙСТІ СИНГЛ",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "15",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "ВПЕЛЬС СТК ВЕЛ МЕНЮ додатково",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "20",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "333",
+    "payment_method": "card",
+    "category": "fuel"
+  },
+  "error": null,
+  "last_raw": null
+}

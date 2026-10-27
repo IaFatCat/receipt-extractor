@@ -1,0 +1,34 @@
+{
+  "doc_id": "azk_07",
+  "repeat": 1,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "УКРПАЛЕТСИСТЕУ",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "БО, кафе) та АГЗП №96 у ТА обл, Бориспільський PH, В"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "ОВО",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "460.30",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "490.00",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

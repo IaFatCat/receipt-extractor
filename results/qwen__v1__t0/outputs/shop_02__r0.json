@@ -1,0 +1,106 @@
+{
+  "doc_id": "shop_02",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ЛЬНИЙ КОМПЛЕКС",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "Київська обл, Укиспіль, ВЧЛ.ГоРбатнка 2"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Карниз ANA AYU. ШТОРКИ В fe 8%",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "519",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Полка для ванної кімнати",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "456",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Hasip СПаста Gebatut2 80 ча",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "281",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Кільця для шторки Bacche 97",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "97",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "ПРокладка силіконова 1/2",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "20.1",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Гачок клейкий Н55-5025 Р ЕЕ",
+        "qty": "2",
+        "unit_price": null,
+        "amount": "534",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Завіска Uallen 180",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "410",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Crikw TEREA Arbor Pearl 175",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "175",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Сигарети Camel Blue 175",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "175",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Crikw TEREA Amber 175",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "175",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "2842.1",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

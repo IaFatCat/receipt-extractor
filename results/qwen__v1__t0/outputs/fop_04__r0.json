@@ -1,0 +1,34 @@
+{
+  "doc_id": "fop_04",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "м. БОРИСПІЛЬ",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "13-1 БОРИСПІЛЬ"
+    },
+    "receipt_number": "12087",
+    "fiscal_number": null,
+    "issued_at": "2026-09-05T17:36:07Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "ХЛІБ БОРОДИНСЬКИИ",
+        "qty": "400",
+        "unit_price": null,
+        "amount": "42.4",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "42.4",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

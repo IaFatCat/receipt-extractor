@@ -1,0 +1,82 @@
+{
+  "doc_id": "fop_01",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "магазин \"Наркетопт\"",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "вул. Центральна, буд, 2-й a ся село Гурівка, Кропивницький р-н чо щ Кіровоградська обл."
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Хліб ІЛОНА таро ' Ваїнський 500 г",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "46.60",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Гірчиця ВЕРЕС Франц Узька 130 г д/п",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "23.60",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Хрін ВЕРЕС Український 130 г д/п",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "18.90",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Гірчиця ВЕРЕС Домашня 130 г д/п",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "75.70",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Круасан Малина 3685г",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "90.90",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Круасан зі смаком маракуйї 385 г",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "6.90",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пакет п/е майка 34 - MAPKETONT",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "6.90",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "278.50",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}
