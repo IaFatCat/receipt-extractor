@@ -1,0 +1,58 @@
+{
+  "doc_id": "food_01",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "МакДональйз Юкрейн Мга",
+      "vat_payer_number": "237444526652",
+      "tax_id": null,
+      "address": "Вул. Бориспільська, 6, 5-та вулиця, місто Бориспіль, область, Бориспільський район"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": "7505-05-25T21:51:01+03:00",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "290.00",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "290",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "15.00",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "15",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "20.00",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "20",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "325.00",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "325",
+        "discount": null,
+        "vat_group": "A"
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "580",
+    "payment_method": "card",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

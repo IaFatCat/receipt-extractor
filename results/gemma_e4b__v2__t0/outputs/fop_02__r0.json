@@ -1,0 +1,50 @@
+{
+  "doc_id": "fop_02",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": null,
+      "vat_payer_number": null,
+      "tax_id": "2081200608",
+      "address": "Р-Н, М. БОРИСПТЛЬ я 2 KUYBCHKHM шлях, BYA. 2/2 Р"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "ПАВЛІВНА",
+        "qty": "0.29",
+        "unit_price": "419.00",
+        "amount": "123.95",
+        "discount": null,
+        "vat_group": "H"
+      },
+      {
+        "name": "СОСИСКИ ДИТЯЧІ Bsc CUEPEBA) (в)",
+        "qty": "0.45",
+        "unit_price": "54.50",
+        "amount": "114.53",
+        "discount": null,
+        "vat_group": "H"
+      },
+      {
+        "name": "ПАКЕТИ @ACYBAADHI №9 10 МКР 1000 WT/ !",
+        "qty": "0.40",
+        "unit_price": "40.00",
+        "amount": "369.50",
+        "discount": null,
+        "vat_group": "H"
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "355.14",
+    "payment_method": "cash",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

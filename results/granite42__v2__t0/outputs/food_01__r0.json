@@ -1,0 +1,69 @@
+{
+  "doc_id": "food_01",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "МакДональд Юкрейн Мга",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "МакДональд Юкрейн Мга",
+        "qty": "1",
+        "unit_price": "290",
+        "amount": "290.00",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "AIIM КАРТОПЛЯНІ МЕНЮ додатково",
+        "qty": "1",
+        "unit_price": "15.008",
+        "amount": "15.008",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "АПЕЛЬС СТК ВЕЛ МЕНЮ додатково",
+        "qty": "1",
+        "unit_price": "20",
+        "amount": "20.00",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "БЕЗГОТТВКОВА",
+        "qty": "1",
+        "unit_price": "325",
+        "amount": "325.00",
+        "discount": null,
+        "vat_group": "B"
+      }
+    ],
+    "vat": [
+      {
+        "group": "A",
+        "rate": null,
+        "amount": null
+      },
+      {
+        "group": "B",
+        "rate": null,
+        "amount": null
+      }
+    ],
+    "discount_total": null,
+    "total": "660",
+    "payment_method": "card",
+    "category": "meals"
+  },
+  "error": null,
+  "last_raw": null
+}

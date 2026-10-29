@@ -1,0 +1,42 @@
+{
+  "doc_id": "food_01",
+  "repeat": 1,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "МакДональдс Україна Мга",
+      "vat_payer_number": null,
+      "tax_id": "237444526652",
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "БІГ ТЕЙСТІ СИНГЛ МЕНЮ",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "290",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "АПЕЛЬСИННИЙ МЕНЮ",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "20",
+        "discount": null,
+        "vat_group": "В"
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "325",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

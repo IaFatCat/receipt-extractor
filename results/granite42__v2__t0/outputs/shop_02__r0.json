@@ -1,0 +1,93 @@
+{
+  "doc_id": "shop_02",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "TOP",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Полка для ванної кімнати",
+        "qty": "1",
+        "unit_price": "456",
+        "amount": "456",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "ПРокладка силіконова 1/2",
+        "qty": "1",
+        "unit_price": "20.1",
+        "amount": "20.1",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "Си гачок клейкий Н55-5025 Р ЕЕ",
+        "qty": "2",
+        "unit_price": "267",
+        "amount": "534",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "Завіска Uallen",
+        "qty": "1",
+        "unit_price": "410",
+        "amount": "410",
+        "discount": null,
+        "vat_group": "p"
+      },
+      {
+        "name": "Сигарети Camel Blue",
+        "qty": "1",
+        "unit_price": "175",
+        "amount": "175",
+        "discount": null,
+        "vat_group": "Б"
+      },
+      {
+        "name": "Crikw TEREA Amber",
+        "qty": "1",
+        "unit_price": "175",
+        "amount": "175",
+        "discount": null,
+        "vat_group": "b"
+      },
+      {
+        "name": "CYUMA 2842,10 ГРН",
+        "qty": "1",
+        "unit_price": "2842.1",
+        "amount": "2842.1",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [
+      {
+        "group": "A",
+        "rate": null,
+        "amount": null
+      },
+      {
+        "group": "B",
+        "rate": null,
+        "amount": null
+      }
+    ],
+    "discount_total": null,
+    "total": "10",
+    "payment_method": "card",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

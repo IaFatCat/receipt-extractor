@@ -1,0 +1,34 @@
+{
+  "doc_id": "azk_04",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ТОВ \"СОКАР ПЕТРОЛЕУМ\"",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Бензин Aa 1983 .25 В",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "1983.25",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "1983.25",
+    "payment_method": "card",
+    "category": "pharmacy"
+  },
+  "error": null,
+  "last_raw": null
+}

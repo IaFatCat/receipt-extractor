@@ -1,0 +1,40 @@
+{
+  "doc_id": "shop_01",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "TOB \"IIpuBarinBect\"",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "4 1,000 X 14062,00 ;",
+        "qty": "4",
+        "unit_price": "14062",
+        "amount": "14062",
+        "discount": null,
+        "vat_group": "A"
+      }
+    ],
+    "vat": [
+      {
+        "group": "A",
+        "rate": "20",
+        "amount": null
+      }
+    ],
+    "discount_total": null,
+    "total": "14062",
+    "payment_method": "card",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

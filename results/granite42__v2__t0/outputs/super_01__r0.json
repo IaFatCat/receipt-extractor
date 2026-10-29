@@ -1,0 +1,200 @@
+{
+  "doc_id": "super_01",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "HOBYC УКРАЇНА",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Йогурт 2,2% Галичина ман. папая 30",
+        "qty": "1",
+        "unit_price": "30",
+        "amount": "30.00",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Ог пл, 38.49 А",
+        "qty": "1",
+        "unit_price": "38.49",
+        "amount": "38.49",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Огірок тепличний в 19.67 A",
+        "qty": "1",
+        "unit_price": "19.67",
+        "amount": "19.67",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "ai Anne куряче CO Молодильне AcexHcBiT",
+        "qty": "1",
+        "unit_price": "72.99",
+        "amount": "72.99",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Штрик код 4820222762816",
+        "qty": "1",
+        "unit_price": "48.20222762816",
+        "amount": "48.20222762816",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "но @, 548 КГ KX 35.89 =",
+        "qty": "1",
+        "unit_price": "548",
+        "amount": "548.00",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Штрик код 4820147580076",
+        "qty": "1",
+        "unit_price": "19.67",
+        "amount": "19.67",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "ai Anne куряче CO Молодильне AcexHcBiT",
+        "qty": "1",
+        "unit_price": "72.99",
+        "amount": "72.99",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Сметана 205 ралинина 300r стакан 69.99 A",
+        "qty": "1",
+        "unit_price": "69.99",
+        "amount": "69.99",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "пакет середня 34455 Novus КГ 5.99 A",
+        "qty": "1",
+        "unit_price": "5.99",
+        "amount": "5.99",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Шинка фітнес Яловича натуральна в/ я Ke 143.86 A",
+        "qty": "1",
+        "unit_price": "143.86",
+        "amount": "143.86",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "я км М. М he 3",
+        "qty": "1",
+        "unit_price": "17.97",
+        "amount": "17.97",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Е 16 кг X 461.40 =",
+        "qty": "1",
+        "unit_price": "461.4",
+        "amount": "461.40",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "alk Hni6 Бородинський Кулиничі н/ск. 4 19 4",
+        "qty": "1",
+        "unit_price": "99.99",
+        "amount": "99.99",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Пакет майка зелений 610 1.49 A",
+        "qty": "1",
+        "unit_price": "610",
+        "amount": "610.00",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "nat",
+        "qty": "1",
+        "unit_price": "5.99",
+        "amount": "5.99",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Шинка фітнес Яловича натуральна в/ я Ke 143.86 A",
+        "qty": "1",
+        "unit_price": "143.86",
+        "amount": "143.86",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Е 16 кг X 461.40 =",
+        "qty": "1",
+        "unit_price": "461.4",
+        "amount": "461.40",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "alk Hni6 Бородинський Кулиничі н/ск. 4 19 4",
+        "qty": "1",
+        "unit_price": "99.99",
+        "amount": "99.99",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Пакет майка зелений 610 1.49 A",
+        "qty": "1",
+        "unit_price": "610",
+        "amount": "610.00",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "nat",
+        "qty": "1",
+        "unit_price": "5.99",
+        "amount": "5.99",
+        "discount": null,
+        "vat_group": "А"
+      }
+    ],
+    "vat": [
+      {
+        "group": "А",
+        "rate": null,
+        "amount": null
+      }
+    ],
+    "discount_total": null,
+    "total": "1234.56",
+    "payment_method": "card",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

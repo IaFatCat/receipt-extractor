@@ -57,6 +57,12 @@ def _transient(e: BaseException) -> bool:
     return isinstance(e, httpx.HTTPStatusError) and e.response.status_code in TRANSIENT_STATUS
 
 
+def _transient_local(e: BaseException) -> bool:
+    """Локальна модель: ReadTimeout — не збій мережі, а надто довга генерація.
+    Повтор того самого запиту при temperature 0 дасть те саме, тож не повторюємо."""
+    return not isinstance(e, httpx.ReadTimeout) and _transient(e)
+
+
 class _RetryAfterWait:
     """Exponential backoff з джитером, але не менше за Retry-After сервера."""
 
@@ -74,8 +80,8 @@ class _RetryAfterWait:
 
 
 async def _post_with_retry(client: httpx.AsyncClient, url: str, *, json_body: dict, headers: dict | None,
-                           timeout_s: float, attempts: int) -> dict:
-    async for attempt in AsyncRetrying(retry=retry_if_exception(_transient), stop=stop_after_attempt(attempts),
+                           timeout_s: float, attempts: int, is_transient=_transient) -> dict:
+    async for attempt in AsyncRetrying(retry=retry_if_exception(is_transient), stop=stop_after_attempt(attempts),
                                        wait=_RetryAfterWait(), reraise=True):
         with attempt:
             r = await client.post(url, json=json_body, headers=headers, timeout=timeout_s)
@@ -90,10 +96,10 @@ async def _post_with_retry(client: httpx.AsyncClient, url: str, *, json_body: di
 class OllamaProvider:
     name = "ollama"
 
-    def __init__(self, model: str, base_url: str, num_ctx: int = 8192, think: bool = False, num_thread: int | None = None,
-                 transport_attempts: int = 4) -> None:
+    def __init__(self, model: str, base_url: str, num_ctx: int = 8192, think: bool | None = False, num_thread: int | None = None,
+                 num_predict: int | None = None, transport_attempts: int = 4) -> None:
         self.model, self.num_ctx, self.think, self.attempts = model, num_ctx, think, transport_attempts
-        self.num_thread = num_thread
+        self.num_thread, self.num_predict = num_thread, num_predict
         self.client = httpx.AsyncClient(base_url=base_url)
 
     async def check(self) -> None:
@@ -108,15 +114,17 @@ class OllamaProvider:
 
     async def complete(self, system, messages, schema, sampling, timeout_s) -> RawResponse:
         d = await _post_with_retry(self.client, "/api/chat", headers=None, timeout_s=timeout_s,
-                                   attempts=self.attempts, json_body={
+                                   attempts=self.attempts, is_transient=_transient_local, json_body={
             "model": self.model,
             "stream": False,
-            "think": self.think,              # qwen3 гібридні моделі за замовчуванням міркують
             "format": schema,                 # constrained decoding за JSON Schema
+            # qwen3.x / gemma: міркування вимикаємо явно; моделі без цього режиму відхиляють сам параметр
+            **({"think": self.think} if self.think is not None else {}),
             "messages": [{"role": "system", "content": system}, *messages],
             "options": {"temperature": sampling.temperature, "top_p": sampling.top_p,
                         "num_ctx": self.num_ctx,
-                        **({"num_thread": self.num_thread} if self.num_thread else {})},
+                        **({"num_thread": self.num_thread} if self.num_thread else {}),
+                        **({"num_predict": self.num_predict} if self.num_predict else {})},
         })
         msg = d.get("message", {})
         in_tok = d.get("prompt_eval_count", 0) or 0
@@ -125,7 +133,8 @@ class OllamaProvider:
             in_tokens=in_tok,
             out_tokens=d.get("eval_count", 0) or 0,
             thinking_chars=len(msg.get("thinking") or ""),
-            ctx_truncated=in_tok >= self.num_ctx - 16,
+            # обрізаний вхід або вихід уперся в num_predict (done_reason == "length")
+            ctx_truncated=in_tok >= self.num_ctx - 16 or d.get("done_reason") == "length",
         )
 
     async def aclose(self) -> None:

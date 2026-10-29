@@ -108,7 +108,7 @@ async def extract(p: Provider, doc_id: str, repeat: int, text: str, system: str,
 def build_provider(m: ModelCfg, s: Secrets) -> Provider:
     if m.provider == "ollama":
         return OllamaProvider(m.model, m.base_url or s.ollama_base_url, num_ctx=m.num_ctx, think=m.think,
-                              num_thread=m.num_thread)
+                              num_thread=m.num_thread, num_predict=m.num_predict)
     if m.provider == "anthropic":
         key = s.anthropic_api_key.get_secret_value() if s.anthropic_api_key else None
         return AnthropicProvider(m.model, key, send_top_p=m.send_top_p, workspace_id=s.anthropic_workspace_id)
@@ -132,6 +132,8 @@ def _git_commit() -> str:
 def _cache_key(m: ModelCfg, prompt_sha: str, sampling: Sampling, text: str, repeat: int) -> str:
     payload = [m.provider, m.model, m.base_url, m.schema_in_prompt, m.extra_body, m.think, m.num_ctx, prompt_sha, SCHEMA_SHA,
                sampling.model_dump(), text, repeat]
+    if m.num_predict:  # лише якщо задано: не інвалідуємо кеш уже прогнаних моделей
+        payload.append({"num_predict": m.num_predict})
     return hashlib.sha256(json.dumps(payload, ensure_ascii=False).encode()).hexdigest()
 
 
@@ -168,7 +170,7 @@ async def run_model(mkey: str, m: ModelCfg, p: Provider, exp: Experiments, docs:
                 else:
                     async with sem:
                         res = await extract(p, doc_id, rep, docs[doc_id], system, sampling,
-                                            exp.timeout_s, exp.max_reask)
+                                            m.timeout_s or exp.timeout_s, exp.max_reask)
                     res.cost_usd = round(cost(m, res), 8)
                     if not res.error or not res.error.startswith("transport"):  # транспортні збої не кешуємо
                         cpath.write_text(res.model_dump_json(), encoding="utf-8")
@@ -195,9 +197,10 @@ async def run_model(mkey: str, m: ModelCfg, p: Provider, exp: Experiments, docs:
                 "think": m.think if m.provider == "ollama" else None,
                 "num_ctx": m.num_ctx if m.provider == "ollama" else None,
                 "num_thread": m.num_thread if m.provider == "ollama" else None,
+                "num_predict": m.num_predict if m.provider == "ollama" else None,
                 "prices_per_1m": {"in": m.price_in, "out": m.price_out,
                                   "cache_read": m.price_cache_read, "cache_write": m.price_cache_write},
-                "timeout_s": exp.timeout_s, "max_reask": exp.max_reask, "n_docs": len(docs),
+                "timeout_s": m.timeout_s or exp.timeout_s, "max_reask": exp.max_reask, "n_docs": len(docs),
                 "git_commit": _git_commit(), "finished_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                 "python": sys.version.split()[0],
             }

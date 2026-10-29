@@ -1,0 +1,50 @@
+{
+  "doc_id": "food_01",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "МакДональдс Юкрейн Мга",
+      "vat_payer_number": "237444526652",
+      "tax_id": null,
+      "address": "Бориспільська, 6"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "БІГ ТЕЙСТІ СИНГЛ МЕНН",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "290.00",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "КАРТОПЛЯНІ МЕНЮ додатково",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "15.00",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "АПЕЛЬС СТК ВЕЛ МЕНЮ додатково",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "20.00",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "325.00",
+    "payment_method": "card",
+    "category": "meals"
+  },
+  "error": null,
+  "last_raw": null
+}

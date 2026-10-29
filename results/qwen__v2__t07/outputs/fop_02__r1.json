@@ -1,0 +1,50 @@
+{
+  "doc_id": "fop_02",
+  "repeat": 1,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "МАГАЗИН ШВЕЦЬКА",
+      "vat_payer_number": null,
+      "tax_id": "2081200608",
+      "address": "м. Куйбишев, вул. 2/2 р-н, BYA. 2/2 Р"
+    },
+    "receipt_number": null,
+    "fiscal_number": "ТН001074017",
+    "issued_at": "2026-09-15T17:35:20Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "СОСИСКИ ДИТЯЧІ (в) ПАПЕРОВА упаковка",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "350",
+        "discount": null,
+        "vat_group": "H"
+      },
+      {
+        "name": "ПАКЕТИ СЕРАДАЧІ №9 10 МКР 1000 Вт",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "54.5",
+        "discount": null,
+        "vat_group": "H"
+      },
+      {
+        "name": "ПЕЧЕРІ (в) Б/А ЧАСКАТ)",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "369.5",
+        "discount": null,
+        "vat_group": "H"
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "355.14",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

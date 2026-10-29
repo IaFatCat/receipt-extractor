@@ -1,0 +1,8 @@
+{
+  "doc_id": "shop_01",
+  "repeat": 0,
+  "status": "failed",
+  "data": null,
+  "error": "validation: re-ask вичерпано: 3 validation errors for Receipt\nitems.0.amount\n  Input should be a valid decimal [type=decimal_parsing, input_value='14062,00', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/decimal_parsing\nitems.1.amount\n  Input should be a valid decimal [type=decimal_parsing,",
+  "last_raw": "{\n  \"seller\": {\n    \"name\": \"BRAIN\"\n  },\n  \"currency\": \"UAH\",\n  \"items\": [\n    {\n      \"name\": \"Монітор Dell $2725DC (210-BSR:\",\n      \"qty\": \"1\",\n      \"amount\": \"14062,00\",\n      \"vat_group\": \"А \"\n    },\n    {\n      \"name\": \"BESPOT LENA\",\n      \"qty\": \"1\",\n      \"amount\": \"14052,00\"\n    }\n  ],\n  \"total\": \"14062,00\",\n  \"payment_method\": \"card\",\n  \"category\": \"meals\"\n}"
+}

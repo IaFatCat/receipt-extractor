@@ -1,0 +1,33 @@
+{
+  "run_id": "qwen__v2__t07",
+  "model_key": "qwen",
+  "provider": "ollama",
+  "model": "qwen3.5:4b",
+  "hardware": "CPU only, 16 ядер (14 потоків для Ollama), 48 ГБ RAM",
+  "base_url": null,
+  "prompt_version": "v2",
+  "prompt_sha": "1946d51d9ac1",
+  "schema_sha": "d757d36797a6",
+  "sampling_key": "t07",
+  "sampling": {
+    "temperature": 0.7,
+    "top_p": 0.9
+  },
+  "repeats": 3,
+  "top_p_sent": true,
+  "think": false,
+  "num_ctx": 8192,
+  "num_thread": 14,
+  "prices_per_1m": {
+    "in": 0.0,
+    "out": 0.0,
+    "cache_read": 0.0,
+    "cache_write": 0.0
+  },
+  "timeout_s": 120.0,
+  "max_reask": 1,
+  "n_docs": 10,
+  "git_commit": "88259f1-dirty",
+  "finished_at": "2026-10-27T22:09:06+00:00",
+  "python": "3.11.1"
+}

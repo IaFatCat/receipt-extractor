@@ -1,0 +1,82 @@
+{
+  "doc_id": "fop_02",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "МАГАЗИН Ш",
+      "vat_payer_number": "2081200608",
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "СЕРЕНАДА 455 КГ",
+        "qty": "419",
+        "unit_price": "0.29",
+        "amount": "123.95",
+        "discount": null,
+        "vat_group": "H"
+      },
+      {
+        "name": "ДИТЯЧІ СОСИСКИ",
+        "qty": "54.5",
+        "unit_price": null,
+        "amount": "114.53",
+        "discount": null,
+        "vat_group": "H"
+      },
+      {
+        "name": "ПАКЕТИ @ACYBAADHI №9 10 МКР 1000 WT/",
+        "qty": "25.79",
+        "unit_price": null,
+        "amount": "350",
+        "discount": null,
+        "vat_group": "H"
+      },
+      {
+        "name": "ЗП о, 40х",
+        "qty": "0.4",
+        "unit_price": null,
+        "amount": "0.4",
+        "discount": null,
+        "vat_group": "H"
+      },
+      {
+        "name": "CEPBEAAT B/K B/C CHAKAT) (B)-",
+        "qty": "369.5",
+        "unit_price": null,
+        "amount": "116.76",
+        "discount": null,
+        "vat_group": "H"
+      },
+      {
+        "name": "CYMA $55,440",
+        "qty": "15",
+        "unit_price": null,
+        "amount": "369.5",
+        "discount": null,
+        "vat_group": "H"
+      },
+      {
+        "name": "ЗВІЛЬНЕНІ ВІД опод. H ©",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "0",
+        "discount": null,
+        "vat_group": "H"
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "355.14",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

@@ -1,0 +1,106 @@
+{
+  "doc_id": "food_03",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "Пастеризоване ПОПЕЛКА ЛАГЕР",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Пиво світле 1 188,00",
+        "qty": "1",
+        "unit_price": "158",
+        "amount": "158",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво світле 1 188,00",
+        "qty": "1",
+        "unit_price": "158",
+        "amount": "158",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво MUZA IPA 2 123,00",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "246",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво MUZA IPA 2 188,00",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "376",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Донер 3 куркою 1 318,00",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "318",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво MUZA IPA 2 188,00",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "376",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво світле Ne 1 218,00",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "218",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "India Pale Ale Westward (келих 0.5)",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "336",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво Rebrew З 103,00",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "309",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво світле нефільтроване непастеризоване",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "2947",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "2947",
+    "payment_method": "cash",
+    "category": "pharmacy"
+  },
+  "error": null,
+  "last_raw": null
+}

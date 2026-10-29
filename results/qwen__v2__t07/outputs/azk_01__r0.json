@@ -1,0 +1,34 @@
+{
+  "doc_id": "azk_01",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "га АГЗП",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "ТЕРВІМА: ЗІКА",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "2065.6",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "2065.6",
+    "payment_method": "cash",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

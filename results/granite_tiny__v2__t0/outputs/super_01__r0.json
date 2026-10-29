@@ -1,0 +1,298 @@
+{
+  "doc_id": "super_01",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ТОВ ",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "КИЇВСЬКА"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": "2026-07-23T18:29:20Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Йогурт 2,2% Галичина ман. папая 30",
+        "qty": "3",
+        "unit_price": null,
+        "amount": "38.49",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "Штрих код 4820222762816",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "38.49",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "йогурт 2,25 Галичина ананас 300r п",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "8.49",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "но @, 548 КГ KX 35.89 = :",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "35.89",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "ВЫ три код 2853532",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "19.67",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "Штрих код 4820147580076",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "72.99",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "ai Anne куряче CO Молодильне AcexHcBiT",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "17.97",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "и ФН 3000780445 |",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "69.99",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "пакет середня 34455 Novus КГ 5.99 A",
+        "qty": "5",
+        "unit_price": null,
+        "amount": "5.99",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Шинка фітнес Яловича натуральна в/я Ke 143.86 A",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "143.86",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "0 вка по к! ово град. Ятрань к/в в",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "17.97",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "ти ювілейна Ятрань к/в В/Г ШИ ый",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "99.99",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "alk Hni6 Бородинський Кулиничі н/ск. 4 19 4",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "4",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Трих код 3830089651794",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "17.97",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "пакет майка зелений 610 1.49 A",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "1.49",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "nat",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "1.49",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "ue Te rina connection er",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "1.49",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "и ПРИВАТБАНК HOBYC УКРАЇНА.",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "449.14",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "с. З121ТО4МЕ",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "13566.66",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "в ЕЛ \"449 13566 6NKNKNNG",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "6.66",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "ПЛАТІЖНА СИСТЕМА: VISA |",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "946.87",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "не КТРАНЗ. [RRN]",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "13566.66",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "КОД АВТ, [AUTH_CODE]",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "7",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "БЕЗГОТТВКОВА 946,87 грн",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "946.87",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "з: КАРТКА",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "946.87",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Не Кв 1060 018 ВИ",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "23.07",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "= ane",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "23.07",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Трих KOA 286259",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "45",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "озинаки хомка HACIHHAtNbOH ACK 45",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "45",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "и Касир",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "17.97",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "ю Підпис власника не потрІбен",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "1.49",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "wy «волчат i ARRRABYAEOSKRREN ГОТ! Оу1-",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "1.49",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "ФН 3000780445 |",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "69.99",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "ецкальний ЧЕК Aas i",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "23.07",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "946.87",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

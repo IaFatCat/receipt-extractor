@@ -1,0 +1,90 @@
+{
+  "doc_id": "fop_01",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "магазин \"Наркетопт\"",
+      "vat_payer_number": "305740855920",
+      "tax_id": null,
+      "address": "вул. Центральна, буд, 2-й a\nся село Гурівка, Кропивницький р-н чо\nщ Кіровоградська обл."
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "106043-Хліб ІЛОНА таро 'о: Ваїнський 500 г",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "46.60",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "55- -Г1рчиця ВЕРЕС Франц Узька 130 г д/п",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "23.60",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "23014-Хр1н ВЕРЕС Українсь Кий 130 г д/п",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "18.90",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "2 14458- -Гірчиця ВЕРЕС Домаш i ня 130 г д/п",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "75.70",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "154733-BB Круасан Малина ‚3685г",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "75.00",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "154737- BB Круасан зі смак | \"ом маракуйї 385 г",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "90.90",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "21406 BB Круасан Шоколад я",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "6.90",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "110936- Пакет п/е майка 34- 05550 MAPKETONT",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "6.90",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "347.42",
+    "payment_method": "card",
+    "category": "groceries"
+  },
+  "error": null,
+  "last_raw": null
+}

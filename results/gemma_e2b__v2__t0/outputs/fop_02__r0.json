@@ -1,0 +1,8 @@
+{
+  "doc_id": "fop_02",
+  "repeat": 0,
+  "status": "failed",
+  "data": null,
+  "error": "validation: re-ask вичерпано: 4 validation errors for Receipt\nitems.0.amount\n  Input should be a valid decimal [type=decimal_parsing, input_value='123,95', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/decimal_parsing\nitems.1.unit_price\n  Input should be a valid decimal [type=decimal_parsin",
+  "last_raw": "{\n  \"seller\": {\n    \"name\": null,\n    \"vat_payer_number\": null,\n    \"tax_id\": null,\n    \"address\": null\n  },\n  \"currency\": \"UAH\",\n  \"items\": [\n    {\n      \"name\": \"CHP PAAOMEP СЕРЕНАДА 455 КГ\",\n      \"qty\": \"455\",\n      \"amount\": \"123,95\",\n      \"unit_price\": null,\n      \"vat_group\": \"H\"\n    },\n    {\n      \"name\": \"СОСИСКИ ДИТЯЧІ Bsc CUEPEBA) (в)\",\n      \"qty\": \"40\",\n      \"amount\": \"116,76\",\n      \"unit_price\": \"0,316\",\n      \"vat_group\": \"H\"\n    }\n  ],\n  \"total\": \"355,14\",\n  \"payment_method\": \"card\",\n  \"category\": \"meals\"\n}"
+}

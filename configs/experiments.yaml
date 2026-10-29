@@ -30,6 +30,44 @@ models:
     num_thread: 14            # CPU-потоки Ollama на виклик: лишаємо 2 ядра з 16 системі
     concurrency: 1            # по одному запиту: паралельні запити ділять ті самі ядра
 
+  # Додаткові локальні моделі (той самий сервер Ollama). Запуск: --models granite_tiny granite42 gemma_e2b gemma_e4b
+  granite_tiny:
+    provider: ollama
+    model: granite4:tiny-h    # гібрид Mamba + MoE: мала кількість активних параметрів -> швидка на CPU
+    num_ctx: 8192
+    think: null               # якщо Ollama скаже «does not support thinking» — саме так і має бути
+    hardware: "CPU only, 16 ядер (14 потоків для Ollama), 48 ГБ RAM"
+    num_thread: 14
+    concurrency: 1
+  granite42:
+    provider: ollama
+    model: granite4.2:3b
+    num_ctx: 8192
+    think: false               # якщо `ollama show` покаже capability thinking — постав false
+    # ReadTimeout 120 с на кожному чеку: модель або міркує, або зациклюється в JSON.
+    # Стеля токенів обриває зациклення -> видно, що саме генерувала (last_raw в errors.md)
+    num_predict: 2048
+    timeout_s: 300
+    hardware: "CPU only, 16 ядер (14 потоків для Ollama), 48 ГБ RAM"
+    num_thread: 14
+    concurrency: 1
+  gemma_e2b:
+    provider: ollama
+    model: gemma4:e2b
+    num_ctx: 8192
+    think: false
+    hardware: "CPU only, 16 ядер (14 потоків для Ollama), 48 ГБ RAM"
+    num_thread: 14
+    concurrency: 1
+  gemma_e4b:
+    provider: ollama
+    model: gemma4:e4b
+    num_ctx: 8192
+    think: false
+    hardware: "CPU only, 16 ядер (14 потоків для Ollama), 48 ГБ RAM"
+    num_thread: 14
+    concurrency: 1
+
 prompts: [v1, v2]
 
 sampling:

@@ -1,0 +1,50 @@
+{
+  "doc_id": "shop_01",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "TOB \"IIpuBarinBect\"",
+      "vat_payer_number": "21550555",
+      "tax_id": "21550555",
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Монітор Dell $2725DC (210-BSR)",
+        "qty": "1",
+        "unit_price": "14062",
+        "amount": "14062",
+        "discount": null,
+        "vat_group": "А"
+      },
+      {
+        "name": "ПЛАТІЖНА CHC EPMA VISA®",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "161.71",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "BESPOT LENA 14052,00 грн",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "14052",
+        "discount": null,
+        "vat_group": "Н"
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "14062",
+    "payment_method": "card",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

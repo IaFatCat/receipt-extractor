@@ -1,0 +1,58 @@
+{
+  "doc_id": "azk_01",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ЗАО ‚вул, Харкзвське woce, 13",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": "4 ВІДПУСК (WM ТРАНЗАКЦІЯ 7432\nЯ КИ В кни» о М вне 4\nя К Te 21014501 |\n4 DEHSHH авт АОе.- Capt: Ш 2068 ВОЙ |"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "я К Te 21014501",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "16.9",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "я Використано бонусів 0.00",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "0",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Нараховано conic 2616,00",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "2616",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Бе! танс бонусів 10828, Ш",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "10828",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "27120.6",
+    "payment_method": "card",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

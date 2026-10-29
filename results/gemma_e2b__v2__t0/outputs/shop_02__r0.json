@@ -1,0 +1,82 @@
+{
+  "doc_id": "shop_02",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ЛЬНИЙ КОМПЛЕКС",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "3 Карниз ANA AYU. ШТОРКИ В fe 8%",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "7",
+        "discount": null,
+        "vat_group": "8%"
+      },
+      {
+        "name": "Прокладка силіконова 1/2",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "20.1",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "Си Гачок клейкий Н55-5025 Р ЕЕ",
+        "qty": "2",
+        "unit_price": null,
+        "amount": "534",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Завіска Uallen 180",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "410",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Crikw TEREA Arbor Pearl",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "175",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Сигарети Camel Blue",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "175",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Crikw TEREA Amber",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "175",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "1121.10",
+    "payment_method": "card",
+    "category": "transport"
+  },
+  "error": null,
+  "last_raw": null
+}

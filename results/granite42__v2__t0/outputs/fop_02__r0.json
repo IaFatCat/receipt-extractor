@@ -1,0 +1,64 @@
+{
+  "doc_id": "fop_02",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "МАГАЗИН Ш",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "2 KUYBCHKHM шлях, BYA. 2/2 Р",
+        "qty": "2",
+        "unit_price": "0.29",
+        "amount": "123.95",
+        "discount": null,
+        "vat_group": "H"
+      },
+      {
+        "name": "©54,50х 0,450: 114,53-H",
+        "qty": "1",
+        "unit_price": "54.5",
+        "amount": "114.53",
+        "discount": null,
+        "vat_group": "H"
+      },
+      {
+        "name": "= 369,50 0,316: 116,76~H_ ©.",
+        "qty": "1",
+        "unit_price": "369.5",
+        "amount": "116.76",
+        "discount": null,
+        "vat_group": "H"
+      },
+      {
+        "name": "CYMA $55,440 ПР о;",
+        "qty": "1",
+        "unit_price": "55.44",
+        "amount": "55.44",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [
+      {
+        "group": "H",
+        "rate": null,
+        "amount": null
+      }
+    ],
+    "discount_total": null,
+    "total": "355.14",
+    "payment_method": "card",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

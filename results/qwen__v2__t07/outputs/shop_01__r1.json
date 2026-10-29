@@ -1,0 +1,42 @@
+{
+  "doc_id": "shop_01",
+  "repeat": 1,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "TOB \"IIpuBarinBect\"",
+      "vat_payer_number": null,
+      "tax_id": "21550555",
+      "address": "Україна, м. Київ, Головіцький р-н, вул. Васильківська, 37-А"
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": "2026-09-08T14:59:27Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Монітор Dell $2725DC (210-BSR: п)",
+        "qty": "4",
+        "unit_price": null,
+        "amount": "14062.00",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "Сервісний запис Еквайра Приватбанк",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "161.71",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "14223.71",
+    "payment_method": "card",
+    "category": "office"
+  },
+  "error": null,
+  "last_raw": null
+}

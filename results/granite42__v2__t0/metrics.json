@@ -1,0 +1,202 @@
+{
+  "run_id": "granite42__v2__t0",
+  "model_key": "granite42",
+  "model": "granite4.2:3b",
+  "provider": "ollama",
+  "prompt_version": "v2",
+  "sampling_key": "t0",
+  "repeats": 1,
+  "calls": 10,
+  "valid_first_try": {
+    "k": 5,
+    "n": 10,
+    "rate": 0.5
+  },
+  "valid_after_reask": {
+    "k": 5,
+    "n": 10,
+    "rate": 0.5
+  },
+  "failed": {
+    "k": 0,
+    "n": 10,
+    "rate": 0.0
+  },
+  "latency_p50_s": 49.931000000000004,
+  "latency_p95_s": 139.0431,
+  "avg_in_tokens": 3860.3,
+  "avg_out_tokens": 711.4,
+  "cost_per_1000_usd": 0.0,
+  "hours_per_1000_sequential": 19.71,
+  "thinking_chars_total": 0,
+  "ctx_truncated": 0,
+  "not_in_text": {
+    "k": 11,
+    "n": 77,
+    "rate": 0.1429
+  },
+  "arithmetic_pred": {
+    "sum_eq_total": {
+      "k": 2,
+      "n": 10,
+      "rate": 0.2
+    },
+    "qty_x_price": {
+      "k": 5,
+      "n": 8,
+      "rate": 0.625
+    }
+  },
+  "golden_docs": 10,
+  "fields": {
+    "seller.name": {
+      "k": 3,
+      "n": 10,
+      "rate": 0.3
+    },
+    "seller.tax_id": {
+      "k": 5,
+      "n": 10,
+      "rate": 0.5
+    },
+    "seller.vat_payer_number": {
+      "k": 2,
+      "n": 10,
+      "rate": 0.2
+    },
+    "receipt_number": {
+      "k": 1,
+      "n": 10,
+      "rate": 0.1
+    },
+    "fiscal_number": {
+      "k": 2,
+      "n": 10,
+      "rate": 0.2
+    },
+    "issued_at": {
+      "k": 0,
+      "n": 10,
+      "rate": 0.0
+    },
+    "currency": {
+      "k": 10,
+      "n": 10,
+      "rate": 1.0
+    },
+    "discount_total": {
+      "k": 10,
+      "n": 10,
+      "rate": 1.0
+    },
+    "total": {
+      "k": 3,
+      "n": 10,
+      "rate": 0.3
+    },
+    "payment_method": {
+      "k": 9,
+      "n": 10,
+      "rate": 0.9
+    }
+  },
+  "field_accuracy_micro": {
+    "k": 45,
+    "n": 100,
+    "rate": 0.45
+  },
+  "hallucinated": {
+    "k": 0,
+    "n": 20,
+    "rate": 0.0
+  },
+  "missed": {
+    "k": 39,
+    "n": 60,
+    "rate": 0.65
+  },
+  "items": {
+    "precision": 0.625,
+    "recall": 0.614,
+    "f1": 0.6195,
+    "matched_field_accuracy": {
+      "name": {
+        "k": 14,
+        "n": 35,
+        "rate": 0.4
+      },
+      "qty": {
+        "k": 30,
+        "n": 35,
+        "rate": 0.8571
+      },
+      "unit_price": {
+        "k": 26,
+        "n": 35,
+        "rate": 0.7429
+      },
+      "amount": {
+        "k": 30,
+        "n": 35,
+        "rate": 0.8571
+      },
+      "discount": {
+        "k": 29,
+        "n": 35,
+        "rate": 0.8286
+      },
+      "vat_group": {
+        "k": 22,
+        "n": 35,
+        "rate": 0.6286
+      }
+    }
+  },
+  "vat": {
+    "group_recall": {
+      "k": 2,
+      "n": 11,
+      "rate": 0.1818
+    },
+    "rate_correct": {
+      "k": 0,
+      "n": 2,
+      "rate": 0.0
+    },
+    "amount_correct": {
+      "k": 0,
+      "n": 2,
+      "rate": 0.0
+    }
+  },
+  "category": {
+    "accuracy": {
+      "k": 2,
+      "n": 10,
+      "rate": 0.2
+    },
+    "confusion": {
+      "fuel->fuel": 1,
+      "fuel->other": 1,
+      "groceries->meals": 1,
+      "groceries->other": 3,
+      "meals->meals": 1,
+      "meals->other": 1,
+      "office->other": 1,
+      "other->fuel": 1
+    }
+  },
+  "by_segment_field_accuracy": {
+    "azk": {
+      "k": 12,
+      "n": 30,
+      "rate": 0.4
+    },
+    "other": {
+      "k": 33,
+      "n": 70,
+      "rate": 0.4714
+    }
+  },
+  "stability_all_repeats_identical": null
+}

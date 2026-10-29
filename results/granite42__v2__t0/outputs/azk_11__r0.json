@@ -1,0 +1,40 @@
+{
+  "doc_id": "azk_11",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "УКРПАЛЕТСИСТЕМ",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Сигарети УП Сане} Blue 350,006",
+        "qty": "1",
+        "unit_price": "175",
+        "amount": "175",
+        "discount": null,
+        "vat_group": "Б"
+      }
+    ],
+    "vat": [
+      {
+        "group": "Б",
+        "rate": null,
+        "amount": null
+      }
+    ],
+    "discount_total": null,
+    "total": "751",
+    "payment_method": "card",
+    "category": "fuel"
+  },
+  "error": null,
+  "last_raw": null
+}

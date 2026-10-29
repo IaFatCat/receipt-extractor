@@ -1,0 +1,162 @@
+{
+  "doc_id": "food_03",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": null,
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "пастеризоване |S POPELKA LAGER ' (ЛОПЕЛКА | ‚ ЛАГЕР)»",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "188",
+        "discount": null,
+        "vat_group": "5%"
+      },
+      {
+        "name": "ПЕТ-кег (келих 0,5)",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "158",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво світле",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "218",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Асорті горіхів.",
+        "qty": "3",
+        "unit_price": null,
+        "amount": "324",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво MUZA IPA",
+        "qty": "2",
+        "unit_price": null,
+        "amount": "246",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "ПЕТ КЕГ",
+        "qty": "0.3",
+        "unit_price": null,
+        "amount": "309",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Донер 3 куркою",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "318",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво MUZA IPA",
+        "qty": "2",
+        "unit_price": null,
+        "amount": "376",
+        "discount": null,
+        "vat_group": "5."
+      },
+      {
+        "name": "ПЕТ КЕГ",
+        "qty": "0.5",
+        "unit_price": null,
+        "amount": "218",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво світле Ne",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "218",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "IPA Outback",
+        "qty": "0.5",
+        "unit_price": null,
+        "amount": "336",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво Цитадель",
+        "qty": "2",
+        "unit_price": null,
+        "amount": "336",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Хмільний Нуль",
+        "qty": "0.5",
+        "unit_price": null,
+        "amount": "158",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Фісташки",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "158",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво світле",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "208",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "India Pale Ale Westward (келих 0.5)",
+        "qty": "0.5",
+        "unit_price": null,
+        "amount": "309",
+        "discount": null,
+        "vat_group": null
+      },
+      {
+        "name": "Пиво Rebrew світле нефільтроване непастеризоване",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "309",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "2947.00",
+    "payment_method": "cash",
+    "category": "meals"
+  },
+  "error": null,
+  "last_raw": null
+}

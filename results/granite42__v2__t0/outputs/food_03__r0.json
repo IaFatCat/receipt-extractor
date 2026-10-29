@@ -1,0 +1,112 @@
+{
+  "doc_id": "food_03",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "S POPELKA LAGER",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Пиво світле 1 188,00 158,00",
+        "qty": "1",
+        "unit_price": "158",
+        "amount": "188",
+        "discount": null,
+        "vat_group": "ПЕ"
+      },
+      {
+        "name": "Асорті горіхів. 3 108,00 324 ,00",
+        "qty": "1",
+        "unit_price": "324",
+        "amount": "324",
+        "discount": null,
+        "vat_group": "ПЕ"
+      },
+      {
+        "name": "Пиво MUZA IPA 2 123,00 246, 00",
+        "qty": "2",
+        "unit_price": "123",
+        "amount": "246",
+        "discount": null,
+        "vat_group": "ПЕ"
+      },
+      {
+        "name": "Пиво MUZA IPA 2 188,00 376,00",
+        "qty": "2",
+        "unit_price": "188",
+        "amount": "376",
+        "discount": null,
+        "vat_group": "ПЕ"
+      },
+      {
+        "name": "Пиво світле Ne 1 218,00 218,00",
+        "qty": "1",
+        "unit_price": "218",
+        "amount": "218",
+        "discount": null,
+        "vat_group": "ПЕ"
+      },
+      {
+        "name": "Пиво Цитадель 2 168,00 336,00",
+        "qty": "2",
+        "unit_price": "168",
+        "amount": "336",
+        "discount": null,
+        "vat_group": "ПЕ"
+      },
+      {
+        "name": "Пиво Rebrew З 103,00 309,00",
+        "qty": "1",
+        "unit_price": "103",
+        "amount": "309",
+        "discount": null,
+        "vat_group": "ПЕ"
+      },
+      {
+        "name": "Фісташки 50r 1 158,00 158,00",
+        "qty": "1",
+        "unit_price": "158",
+        "amount": "158",
+        "discount": null,
+        "vat_group": "ПЕ"
+      },
+      {
+        "name": "Пиво світле 1 208,00 208,00",
+        "qty": "1",
+        "unit_price": "208",
+        "amount": "208",
+        "discount": null,
+        "vat_group": "ПЕ"
+      },
+      {
+        "name": "India Pale Ale Westward (келих 0.5)",
+        "qty": "1",
+        "unit_price": "1158",
+        "amount": "1158",
+        "discount": null,
+        "vat_group": "ПЕ"
+      }
+    ],
+    "vat": [
+      {
+        "group": "ПЕ",
+        "rate": null,
+        "amount": null
+      }
+    ],
+    "discount_total": null,
+    "total": "2947",
+    "payment_method": "unknown",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

@@ -1,0 +1,40 @@
+{
+  "doc_id": "azk_01",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "ПН ЗАО вул, Харкзвське woce, 13",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Я Ки 16,90",
+        "qty": "1",
+        "unit_price": null,
+        "amount": "16.9",
+        "discount": null,
+        "vat_group": null
+      }
+    ],
+    "vat": [
+      {
+        "group": "ZН",
+        "rate": null,
+        "amount": null
+      }
+    ],
+    "discount_total": null,
+    "total": "16.9",
+    "payment_method": "card",
+    "category": "other"
+  },
+  "error": null,
+  "last_raw": null
+}

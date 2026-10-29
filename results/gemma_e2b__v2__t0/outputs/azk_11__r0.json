@@ -1,0 +1,8 @@
+{
+  "doc_id": "azk_11",
+  "repeat": 0,
+  "status": "failed",
+  "data": null,
+  "error": "validation: re-ask вичерпано: 2 validation errors for Receipt\nitems.0.amount\n  Input should be a valid decimal [type=decimal_parsing, input_value='350,00', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/decimal_parsing\ntotal\n  Input should be a valid decimal [type=decimal_parsing, input_valu",
+  "last_raw": "{\n  \"seller\": {\n    \"name\": \"АЗК (магазин, кафе)\"\n  },\n  \"currency\": \"UAH\",\n  \"items\": [\n    {\n      \"name\": \"Сигарети УП Сане} Blue\",\n      \"qty\": \"1\",\n      \"amount\": \"350,00\",\n      \"vat_group\": \"6\"\n    }\n  ],\n  \"total\": \"751,00\",\n  \"payment_method\": \"cash\",\n  \"category\": \"other\"\n}"
+}

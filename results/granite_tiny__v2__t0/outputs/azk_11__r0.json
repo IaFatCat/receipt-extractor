@@ -1,0 +1,42 @@
+{
+  "doc_id": "azk_11",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "IM \"УКРПАЛЕТСИСТЕМ\"",
+      "vat_payer_number": "X 175,00",
+      "tax_id": "2404110010",
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": "1806-02-24T18:35:20Z",
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "Сигарети УП Сане} Blue",
+        "qty": "1",
+        "unit_price": "175",
+        "amount": "350",
+        "discount": null,
+        "vat_group": "3"
+      },
+      {
+        "name": "Сигарети УП Сане} Blue",
+        "qty": "2",
+        "unit_price": "175",
+        "amount": "350",
+        "discount": null,
+        "vat_group": "3"
+      }
+    ],
+    "vat": [],
+    "discount_total": null,
+    "total": "751",
+    "payment_method": "card",
+    "category": "transport"
+  },
+  "error": null,
+  "last_raw": null
+}

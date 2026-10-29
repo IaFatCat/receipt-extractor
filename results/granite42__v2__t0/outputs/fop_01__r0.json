@@ -1,0 +1,80 @@
+{
+  "doc_id": "fop_01",
+  "repeat": 0,
+  "status": "ok",
+  "data": {
+    "seller": {
+      "name": "магазин \"Наркетопт\"",
+      "vat_payer_number": null,
+      "tax_id": null,
+      "address": null
+    },
+    "receipt_number": null,
+    "fiscal_number": null,
+    "issued_at": null,
+    "currency": "UAH",
+    "items": [
+      {
+        "name": "106043-Хліб ІЛОНА таро 'Ваїнський 500 г 46.60 A'",
+        "qty": "1",
+        "unit_price": "46.6",
+        "amount": "46.6",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "1 x 23.60",
+        "qty": "1",
+        "unit_price": "23.6",
+        "amount": "23.6",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "23014-Хр1н ВЕРЕС Українсь Кий 130 г д/п 18.90 A",
+        "qty": "1",
+        "unit_price": "18.9",
+        "amount": "18.9",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "154733-BB Круасан Малина",
+        "qty": "1",
+        "unit_price": "75.7",
+        "amount": "75.7",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "21406 BB Круасан Шоколад я",
+        "qty": "1",
+        "unit_price": "90.9",
+        "amount": "90.9",
+        "discount": null,
+        "vat_group": "A"
+      },
+      {
+        "name": "110936- Пакет п/е майка 34",
+        "qty": "1",
+        "unit_price": "6.9",
+        "amount": "6.9",
+        "discount": null,
+        "vat_group": "A"
+      }
+    ],
+    "vat": [
+      {
+        "group": "A",
+        "rate": null,
+        "amount": null
+      }
+    ],
+    "discount_total": null,
+    "total": "236.8",
+    "payment_method": "card",
+    "category": "meals"
+  },
+  "error": null,
+  "last_raw": null
+}

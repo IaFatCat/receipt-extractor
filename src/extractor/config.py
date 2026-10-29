@@ -27,8 +27,10 @@ class ModelCfg(BaseModel):
     price_cache_read: float = 0.0
     price_cache_write: float = 0.0
     num_ctx: int = 8192
-    think: bool = False
+    think: bool | None = False   # None — не передавати зовсім (моделі без режиму міркування)
     num_thread: int | None = None  # Ollama: скільки ядер CPU брати; None — рішення Ollama
+    num_predict: int | None = None  # Ollama: стеля вихідних токенів; зупиняє модель, що зациклилась у JSON
+    timeout_s: float | None = None  # перекриває загальний timeout_s (повільна модель на CPU)
     send_top_p: bool = False
     base_url: str | None = None
     api_key_env: str | None = None   # з якої змінної .env брати ключ (для openai-сумісних: OpenRouter тощо)
